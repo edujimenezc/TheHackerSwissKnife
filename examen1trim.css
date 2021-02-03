@@ -1,0 +1,106 @@
+* {
+	box-sizing:border-box;
+	padding:10px;
+	
+}
+p {
+	/**todos los p tendrán las siguientes características*/
+	margin:0px;
+	text-align:center;
+}
+
+
+
+div {
+	background-color:grey;
+	/*los div a los que no se le añada ninguna característica, serán así por defecto*/
+}
+
+body {
+	/*ponemos los padding a 0 porque puede salir con algún valor por defecto*/
+	/*Establecemos el color de fondo de nuestra página*/
+	margin:0px;
+ background-color:black;
+}
+#contenedorTodo /*especificamos el borde y el padding*/ {
+	border: black 50px solid;
+	box-sizing: border-box;
+	
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+#cabecera{
+	/*El color de la cabecera será blanco, el texto estará pegado a la parte superior por el padding-top de 0px, y tendrá un alto de 150px*/
+	background-color:white;
+	padding:50px;
+	height:150px;
+	padding-top:0px;
+	
+}
+
+#cajaContenedora{
+	/*con el display flex hacemos que la maquetación sea más sencilla*/
+		display:flex;
+		padding:0px;
+	}
+	
+#hobby{
+	/*en hobby establecemos el ancho, alto, borde y color de fondo*/
+	width:75%;
+	background-color:gainsboro;
+		border:25px;
+		height:350px;
+}
+	
+
+
+
+
+	
+#menuDerecha{
+	/*El menu de la derecha será blanco y con un margen de 5px, de largo será el 50%*/
+	width:50%;
+	margin:0px;background-color:white;"
+
+
+	
+    border-top-width: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+	
+	
+#pieDePagina{
+	
+	/*El pie de página usa margenes de -50 para que se vea fuera de los otros contenedores*/
+	/*tendrá un fondo blanco y una altura de 150 pixeles, el texto se alineará al centro*/
+	background-color: white;
+   
+    height: 150px;
+    margin: 0px -50px;
+    margin-top: 0px;
+    margin-right: -50px;
+    margin-bottom: 0px;
+    margin-left: -50px;
+	 text-align: center;
+	
+}
+
+
+
+@media screen and (max-width:600px){
+	/*Cuando el viewport sea estrecho, se aplicarán estas caracteristicas*/
+	#cajaContenedora{
+		display:unset;
+		
+	}
+	
+
+	
+}
