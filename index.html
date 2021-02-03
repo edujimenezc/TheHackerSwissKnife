@@ -1,55 +1,66 @@
-<!DOCTYPE html>
+<!DOCTYPE html">
 <html lang="es">
 
-<!--
-Tema: Web Storage - localstorage y sessionstorage 
-alumno: Carlos Boni
-fecha: 18 enero
--->
-
 <head>
-  <title>HTML5 - WebStorage - sessionStorage</title>
-  <meta charset="UTF-8"/>  
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+<title>Comanda del restaurante</title>
+<link rel="StyleSheet" href="examen1trim.css" type="text/css">
+
 </head>
 
+<!--
+Trabajo: - 1DAW-Lenguajes de Marcas
+Fecha: 24 noviembre 2020
+Autor: Carlos Boni
+Comentario: comenzamos a dar formato css a la pagina
+de pedido de comanda en nuestro caso practico de restaurante...
 
+-->
 <body>
-	<header>
-		<h1>Ejemplo Session Storage</h1>
-		<p>Es otra forma de almacenar información en el navegador lado 
-		cliente en lugar de usar cookies.
-		En este caso, el almacenamiento NO es permanente; al cerrar el navegador se borra </p>
-	</header>
-			<a href="18-ene-sessionstorage-2.html">IR a  pag. 2</a>
-			<form name="miFormulario" onSubmit="return guardar()">
-			  <label for="apellido">Apellido:</label><br>
-			  <input type="text" id="apellido" name="apellido" maxlength="10" required><br>
-			  <input type="submit" value="Guardar">
-			</form>
-			<!-- creamos un elemento vacío para luego poner allí el resultado
-			de nuestro script -->
-			<br/>
-			<div id="mensaje"></div>		
-<script>
-  // seccion de codigo javascript 
-		// Valida que el browser lo permita
-	document.getElementById("mensaje").innerHTML = sessionStorage.getItem("apellido");
-	
-	function guardar(){
-		if (typeof(Storage) !== "undefined") {
-		  // Almacena un valor usando el método setItem del objeto localStorage
-		  var x=document.forms["miFormulario"]["apellido"].value;
-		  sessionStorage.setItem("apellido", x);
-		  // Recupera el valor usando el método getItem del objeto localStorage
-		  document.getElementById("mensaje").innerHTML = sessionStorage.getItem("apellido");
-		} else {
-		  document.getElementById("mensaje").innerHTML = "Este navegador no soporta web storage...";
-		}
-		return false;
-	}
-</script>
+<div id="contenedorTodo"> 
+<!--Primero creo un contenedor donde guardar todos los div-->
+<div id="cabecera">
+<!--El primer contenedor será la cabecera e indicará el nombre y el curso-->
+<p>
+<b>EXAMEN PRÁCTICO 1er.TRIMESTRE<br>
+Alumno: Eduardo Jiménez Cobos<br>
+Curso: 1DAM</b>
+</p>
+</div>
+
+<!--El siguiente div será una caja que contendrá el apartado hobby y edad-->
+<div id="cajaContenedora">
+<!---En hobby se guarda dentro de <p> algo que nos gusta hacer-->
+<div id="hobby">
+<p>HOBBY</p>
+<p>Me gusta esquiar</p>
+</div>
+<!--En el menu de la derecha saldrá un desplegable (por ahora vacio)
+ hecho con details que hace  un widget para poder interactuar con las diferentes opciones del menú y con ul (lista desordenada)-->
+<div id="menuDerecha" >
+<details>
+<summary>Edad</summary>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+</details>
+</div>
+</div>
+
+
+<div id="pieDePagina">
+<!--El pie de página se repetirá en todas las páginas-->
+<p>4.PIE DE PAGINA</p>
+</div>
+
+</div>
+
 </body>
+
 </html>
-
-
-
