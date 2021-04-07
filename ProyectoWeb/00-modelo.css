@@ -1,0 +1,246 @@
+/*
+CSS 
+web o pagina: Proyecto Web 3º Trimestre
+autor: Eduardo Jimenez
+fecha: Abril 2021
+
+*/
+*{
+		  box-sizing: border-box;
+		  padding: 0;
+		  margin: 0;
+   scrollbar-color: yellow #800080;
+    scrollbar-width: 10px;
+		}
+		
+		.marco {
+		  display: grid;
+		  /*border-style: solid;
+		   border-color: blue;*/
+		  grid-template-columns: 23% 62% 15%;
+		  grid-template-rows: 15% 0% 130% 10%;
+		  /*grid-gap: 10px;*/
+		  
+		  height: 100%;
+		  width: 100%;
+		}
+		
+		.encabezado {
+			overflow:auto;/*
+		  border-style: solid;
+		  border-color: blue;*/
+		  grid-column: 1 / span 3;
+		  grid-row: 1 / span 2;
+		 background-color:rgba(0,0,255,0.1)
+		}
+		
+		.nvar{
+			position:static;
+			margin-left:35%;
+			 overflow: hidden;
+		  background-color: #333; 
+			width:32%;
+		}
+		.nvar a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+		
+		
+		
+		.lado {
+			
+			width:100%;
+			overflow:auto/*;
+		  border-style: solid;
+		  border-color: violet;*/
+		
+		  grid-column: 1 / span 1;
+		  grid-row: 3 / span 1;
+		   background-color:rgba(0,0,255,0.1)
+		}
+		
+		.contenido {
+			
+    
+
+			overflow:auto;
+			scrollbar-color: yellow #800080;
+		scrollbar-width: none;
+			
+			
+			
+		  grid-column: 2 / span 1;
+		  grid-row: 3 / span 1;
+		   background-color:rgba(0,0,255,0.1)
+		}
+		
+}
+		
+		.infomia{
+			 margin-left: 1%;
+			 margin-right:1%;
+				clear:both;
+			margin-top:1%;
+			height:auto;
+			float:left;
+			width:100%;
+			position:static;
+			margin-right:1%;
+			word-wrap: break-word;
+			
+		}
+		#fotomia{
+			
+			float:left;
+			position:static;
+			width:100%;
+			height:auto;
+		}
+		
+		#tituloPelicula{
+			font-family: "Lucida Console", "Courier New", monospace;
+			color:rgba(255, 99, 71, 1);
+		}
+		
+		#tituloPelicula2{
+			font-family: "Lucida Console", "Courier New", monospace;
+			color:blue;
+		}
+		.porquedam{
+			
+			
+			margin-left: 1%;
+			margin-right:2%;
+			margin-top:15%;
+			width:99%;
+			height:auto;
+			float:left;
+			
+			
+			position:static;
+			
+			word-wrap: break-word;
+		}
+		.infocentro{
+				margin-left: 1%;
+				margin-right:2%;
+					margin-top:15%;
+			width:99%;
+			height:auto;
+			float:left;
+			
+			
+			position:static;
+			
+			word-wrap: break-word;
+			
+		}
+		
+		#personaje{}
+		
+		#fotoPersonaje{
+			
+			position:static;
+			width:35%;
+			height:auto;
+			margin-left:1%;
+		}
+		
+		.nvar2{
+			position:static;
+			
+			 overflow: hidden;
+		  background-color: #339; 
+			width:40%;
+			
+		}
+	
+	
+		.nvar2 a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+		.migas {/*
+		  border-style: solid;
+		  border-color: blue;*/
+		  grid-column: 3 / span 1;
+		  grid-row: 3 / span 1;
+		   background-color:rgba(0,0,255,0.1)
+		}
+		
+		
+		#nVeces{
+			position:static;
+			margin-top:-3%;
+			float:right;
+			
+			
+		}
+		
+				ul.ruta li {
+			display: inline;
+			font-size: 18px;
+}
+
+ul.ruta li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+		
+		
+		
+		/*fin migas*/
+		
+		
+		
+		
+		
+		
+		.pie{  
+		overflow:auto;
+		width: 435%;
+		height:100%
+		  border-style: solid;
+		  border-color: aqua;
+		  grid-column: 1 / span 3;
+		  grid-row: 4 / span 2;
+		   background-color:rgba(0,0,255,0.1)
+		}
+		#copy{
+			
+			text-align:center}
+
+
+/*
+
+pseudoclases, asignarles estilos en este orden llamado LVHA:
+   :link — :visited — :hover — :active.
+   
+Más selectores y documentación:
+pseudo-clases: https://www.w3schools.com/css/css_pseudo_classes.asp
+pseudo-elementos: https://www.w3schools.com/css/css_pseudo_elements.asp
+pseudo-atributos: https://www.w3schools.com/css/css_attribute_selectors.asp
+formularios: https://www.w3schools.com/css/css_form.asp
+posicionamiento: https://www.w3schools.com/css/css_positioning.asp
+selectores: https://www.w3schools.com/cssref/css_selectors.asp
+*/
+
+
+
+
+
