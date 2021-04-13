@@ -24,13 +24,5 @@ function migasI() {
 $('#this_title').html('<strong>' + 'Inicio' + '</strong>')}
 function migasA() {
 $('#this_title').html('<strong>' + 'Actualidad' + '</strong>')}
- /*var href = $(location).attr('href');
- var actualidad = href.substring(href.indexOf("actualidad")+1);
- if(href.indexOf("index")!==-1){
-	  $('#this_title').html('<strong>' + 'Inicio' + '</strong>')
- }else if(href.indexOf("actualidad")!==-1){
- $('#this_title').html('<strong>' + actualidad + '</strong>')
-	 
- }
-
-**/
+ 
+ 

@@ -5,41 +5,55 @@ autor: Eduardo Jimenez
 fecha: Abril 2021
 
 */
+
 *{
 		  box-sizing: border-box;
 		  padding: 0;
 		  margin: 0;
-   scrollbar-color: yellow #800080;
-    scrollbar-width: 10px;
-		}
+}
 		
+		
+		body{
+			overflow-y:scrollbar; 
+			overflow-x:hidden; 
+			font-family:Verdana,Century Gothic,Candara,Futara,Trebuchet MS;
+			color:white;
+			background-color:black;
+		}
+   a{color: #FF0000; }
+	
+
 		.marco {
+			
 		  display: grid;
 		  /*border-style: solid;
 		   border-color: blue;*/
 		  grid-template-columns: 23% 62% 15%;
-		  grid-template-rows: 15% 0% 130% 10%;
-		  /*grid-gap: 10px;*/
+		  grid-template-rows: 10% 0% 100% 10%;
+		  /*grid-gap: 1%;*/
 		  
-		  height: 100%;
-		  width: 100%;
+		  height: 100vh;
+		  width: 100vw;
 		}
 		
 		.encabezado {
+			
 			overflow:auto;/*
 		  border-style: solid;
 		  border-color: blue;*/
 		  grid-column: 1 / span 3;
 		  grid-row: 1 / span 2;
-		 background-color:rgba(0,0,255,0.1)
+		 background-color:rgba(0,0,20)
 		}
+		
+		
 		
 		.nvar{
 			position:static;
 			margin-left:35%;
 			 overflow: hidden;
 		  background-color: #333; 
-			width:32%;
+			width:35%;
 		}
 		.nvar a {
 		  float: left;
@@ -49,15 +63,31 @@ fecha: Abril 2021
 		  padding: 14px 16px;
 		  text-decoration: none;
 		}
-		
-		
+		.nvar a:hover{
+			color:yellow;
+		}
+		.nvar a{
+			
+	transition: color 0.8s linear 0.2s;
+
+		}
 		
 		.lado {
 			
+			position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+			
 			width:100%;
-			overflow:auto/*;
+			height:auto;
+			overflow:auto;
 		  border-style: solid;
-		  border-color: violet;*/
+		  border-color: red;
+    
+    border-top-width: 1px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
 		
 		  grid-column: 1 / span 1;
 		  grid-row: 3 / span 1;
@@ -66,11 +96,18 @@ fecha: Abril 2021
 		
 		.contenido {
 			
+			overflow-y:auto; overflow-x:hidden; 
+			 border-style: solid;
+		  border-color: red;
     
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 1px;
+
 
 			overflow:auto;
-			scrollbar-color: yellow #800080;
-		scrollbar-width: none;
+			
 			
 			
 			
@@ -78,10 +115,141 @@ fecha: Abril 2021
 		  grid-row: 3 / span 1;
 		   background-color:rgba(0,0,255,0.1)
 		}
-		
+		.contenido::-webkit-scrollbar {
+    display: none;
+			}
+			
+			
+			
+		h1{
+    padding-left: 36%;
+    padding-right: 30%;
+	
 }
+h1:hover{
+	color:green;
+	 
+}
+h1{
+	transition: color 0.8s linear 0.2s;
+}
+
+
+
+
+
+
+
+
+		#gifvector{
+			width:28%;
+			height:30%;
+			margin-left:36%;
+		}
+		#gifvector:hover{
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
 		
-		.infomia{
+.video{
+	margin-left: 1%;
+				margin-right:2%;
+					margin-top:15%;
+			width:99%;
+			height:55%;
+			float:left;
+			
+			
+			position:static;
+			
+			word-wrap: break-word;
+}
+
+#videovector{
+	
+	width:100%;
+	height:100%
+}
+
+		.informacion{
+			animation-name: logoAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: normal;
+		}
+		
+#fotomia{
+	
+	position: -webkit-sticky; /* Safari */
+			position: sticky;
+	width:50%;
+    height:50%;
+    border-radius:50%;
+	margin-left: 25%;
+    margin-right: 25%;
+margin-top: 15%;
+
+ 
+  
+  
+}
+
+#miNombre{
+	margin-left: 25%;
+    margin-right: 25%;
+}
+#miTexto{
+	margin-left: 25%;
+    margin-right: 25%;
+}
+
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  20%,80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+/*poner esta propiedad en el texto q venga abajo*/
+
+}
+		 /* animation-duration: 3s;
+  animation-name: slidein;
+	
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 25%;
+    width: 50%;
+  }*/
+.noticia{
+				margin-left: 1%;
+				margin-right:2%;
+					margin-top:15%;
+			width:99%;
+			height:auto;
+			float:left;
+			
+			
+			position:static;
+			
+			word-wrap: break-word;
+			
+		}
+		
+	/*	.infomia{
 			 margin-left: 1%;
 			 margin-right:1%;
 				clear:both;
@@ -94,13 +262,7 @@ fecha: Abril 2021
 			word-wrap: break-word;
 			
 		}
-		#fotomia{
-			
-			float:left;
-			position:static;
-			width:100%;
-			height:auto;
-		}
+		
 		
 		#tituloPelicula{
 			font-family: "Lucida Console", "Courier New", monospace;
@@ -126,20 +288,7 @@ fecha: Abril 2021
 			
 			word-wrap: break-word;
 		}
-		.infocentro{
-				margin-left: 1%;
-				margin-right:2%;
-					margin-top:15%;
-			width:99%;
-			height:auto;
-			float:left;
-			
-			
-			position:static;
-			
-			word-wrap: break-word;
-			
-		}
+		
 		
 		#personaje{}
 		
@@ -168,24 +317,63 @@ fecha: Abril 2021
 		  text-align: center;
 		  padding: 14px 16px;
 		  text-decoration: none;
-		}
-		.migas {/*
-		  border-style: solid;
-		  border-color: blue;*/
+		}*/
+		.migas {
+			 border-style: solid;
+		  border-color: red;
+			 border-top-width: 1px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
 		  grid-column: 3 / span 1;
 		  grid-row: 3 / span 1;
-		   background-color:rgba(0,0,255,0.1)
+		   background-color:rgba(0,0,255,0.1);
+		 animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 		}
+		
+		@keyframes fadein { from { opacity: 0; } to { opacity: 1; } } 
+		/* Firefox < 16 */ @-moz-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+		/* Safari, Chrome and Opera > 12.1 */ @-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; } } 
+		/* Internet Explorer */ @-ms-keyframes fadein { from { opacity: 0; } to { opacity: 1; } } 
+		/* Opera < 12.1 */ @-o-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+/*Fuente: https://www.iteramos.com/pregunta/9095/usando-css-para-efecto-de-fade-in-en-la-carga-de-la-pagina*/
+		
 		
 		
 		#nVeces{
 			position:static;
 			margin-top:-3%;
 			float:right;
+			word-wrap: break-word;
+			margin-left:1%;
+			margin-right:1%;
 			
+		}#nVeces:hover{
 			
-		}
+		color:green;
+	 
+}
+#nVeces{
+	transition: color 0.8s linear 0.2s;
+}
+	#paginaActual{
+		word-wrap: break-word;
+			margin-left:1%;
+			margin-right:1%;
+		}	
 		
+		
+		
+		#paginaActual:hover{
+			color:red;
+		}
+		#paginaActual{
+			transition: color 0.8s linear 0.2s;
+		}
 				ul.ruta li {
 			display: inline;
 			font-size: 18px;
@@ -214,10 +402,17 @@ ul.breadcrumb li a:hover {
 		.pie{  
 		overflow:auto;
 		width: 435%;
-		height:100%
+		height:100%;
+		
 		  border-style: solid;
 		  border-color: aqua;
-		  grid-column: 1 / span 3;
+border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;		
+
+
+		grid-column: 1 / span 3;
 		  grid-row: 4 / span 2;
 		   background-color:rgba(0,0,255,0.1)
 		}
