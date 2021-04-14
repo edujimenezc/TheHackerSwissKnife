@@ -1,13 +1,8 @@
-/*
-CSS 
-web o pagina: Proyecto Web 3º Trimestre
-autor: Eduardo Jimenez
-fecha: Abril 2021
+@media screen and (max-device-width : 480px) {
 
-*/
-
-
-
+        #sidebar{
+	        display:none;
+	        }
 
 *{
 		  box-sizing: border-box;
@@ -123,20 +118,17 @@ fecha: Abril 2021
 			}
 			
 			
-			.arriba_contenido{
-				justify-content: center;
-  align-items: center;
-			}
-		.arriba_contenido h1{
-   font-size:400%;
-    margin: 1em 25%;
+			
+		h1{
+    padding-left: 36%;
+    padding-right: 30%;
 	
 }
-.arriba_contenido h1:hover{
+h1:hover{
 	color:green;
 	 
 }
-.arriba_contenido h1{
+h1{
 	transition: color 0.8s linear 0.2s;
 }
 
@@ -150,16 +142,14 @@ fecha: Abril 2021
 		#gifvector{
 			width:28%;
 			height:30%;
-			margin-left:auto;
-   margin-right:auto;
+			margin-left:36%;
 		}
 		#gifvector:hover{
 -webkit-transform: rotateY(180deg);
 -webkit-transform-style: preserve-3d;
 transform: rotateY(180deg);
 transform-style: preserve-3d;}
-
-#gifvector{transition: color 0.8s linear 0.2s;}
+		
 .video{
 	margin-left: 1%;
 				margin-right:2%;
@@ -179,20 +169,6 @@ transform-style: preserve-3d;}
 	width:100%;
 	height:100%
 }
-
-	
-		#fotovectoresp{
-			margin-left:25%;
-			
-		}
-		#fotovectoresp:hover{
-			box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-			
-		}
-		#fotovectoresp{
-			transition: color 0.8s linear 0.2s;
-		}
 
 		.informacion{
 			animation-name: logoAnimation;
@@ -340,11 +316,6 @@ margin-top: 15%;
 		  padding: 14px 16px;
 		  text-decoration: none;
 		}*/
-		
-		
-	
-		
-		
 		.migas {
 			 border-style: solid;
 		  border-color: red;
@@ -446,23 +417,4 @@ border-top-width: 1px;
 		#copy{
 			
 			text-align:center}
-
-
-/*
-
-pseudoclases, asignarles estilos en este orden llamado LVHA:
-   :link — :visited — :hover — :active.
-   
-Más selectores y documentación:
-pseudo-clases: https://www.w3schools.com/css/css_pseudo_classes.asp
-pseudo-elementos: https://www.w3schools.com/css/css_pseudo_elements.asp
-pseudo-atributos: https://www.w3schools.com/css/css_attribute_selectors.asp
-formularios: https://www.w3schools.com/css/css_form.asp
-posicionamiento: https://www.w3schools.com/css/css_positioning.asp
-selectores: https://www.w3schools.com/cssref/css_selectors.asp
-*/
-
-
-
-
-
+}
