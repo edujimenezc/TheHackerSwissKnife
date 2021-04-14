@@ -22,7 +22,9 @@ $("#nVeces").text('Has cargado '+sessionStorage.clickcount+' veces la página de
 
 function migasI() {
 $('#this_title').html('<strong>' + 'Inicio' + '</strong>')}
-function migasA() {
-$('#this_title').html('<strong>' + 'Actualidad' + '</strong>')}
- 
- 
+function migasP() {
+$('#this_title').html('<strong>' + 'Project Spanish Vector' + '</strong>')}
+function migasB() {
+$('#this_title').html('<strong>' + 'Blog' + '</strong>')}
+function migasC() {
+$('#this_title').html('<strong>' + 'Contacto' + '</strong>')} 
