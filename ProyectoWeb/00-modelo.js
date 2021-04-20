@@ -15,7 +15,7 @@ function clickCounter(){
     } else {
       sessionStorage.setItem("clickcount",1);
     }
-$("#nVeces").text('Has cargado '+sessionStorage.clickcount+' veces la página del sitio');
+$("#nVeces").text('Has cargado '+sessionStorage.clickcount+' veces '+'  la página del sitio');
 }}
 
 

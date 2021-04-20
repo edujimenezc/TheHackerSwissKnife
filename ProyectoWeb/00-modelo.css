@@ -14,8 +14,23 @@ fecha: Abril 2021
 		  padding: 0;
 		  margin: 0;
 }
-		
-		
+		::-webkit-scrollbar {
+  width: 10px;
+}
+		/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 		body{
 			overflow-y:scrollbar; 
 			overflow-x:hidden; 
@@ -31,7 +46,7 @@ fecha: Abril 2021
 		  display: grid;
 		  /*border-style: solid;
 		   border-color: blue;*/
-		  grid-template-columns: 23% 62% 15%;
+		  grid-template-columns: 23% 62% 14%;
 		  grid-template-rows: 10% 0% 100% 10%;
 		  /*grid-gap: 1%;*/
 		  
@@ -201,9 +216,23 @@ transform-style: preserve-3d;}
 
 text-align:center;
 }
+#textoMiTitulo{
+	font-size:200%;
+margin-left:1%;
+word-wrap: break-word;
+}
+#fotocenec{
+	
+	
+    margin-left: 80%;
+    margin-top: 10%;
 
-
-
+}
+#textoMiInfo{
+	margin-left:1%;
+	word-wrap: break-word;
+	
+}
 
 
 
@@ -328,8 +357,8 @@ margin-top: 15%;
 			margin-top:-3%;
 			float:right;
 			word-wrap: break-word;
-			margin-left:1%;
-			margin-right:1%;
+			margin-left:2%;
+			margin-right:2%;
 			
 		}#nVeces:hover{
 			
