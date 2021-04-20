@@ -6,7 +6,7 @@ fecha: Abril 2021
 
 */
 
-@media screen and (max-device-width : 600px) {
+@media screen and (max-device-width : 750px) {
 
         #sidebar{
 	        display:none;
