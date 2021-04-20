@@ -176,8 +176,8 @@ transform-style: preserve-3d;}
 
 #gifvector{transition: color 0.8s linear 0.2s;}
 .video{
-	margin-left: 1%;
-				margin-right:2%;
+	margin-left: 0.5%;
+				margin-right:0.5%;
 					margin-top:15%;
 			width:99%;
 			height:55%;
