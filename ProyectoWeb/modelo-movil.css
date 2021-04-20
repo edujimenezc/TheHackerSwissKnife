@@ -38,7 +38,7 @@ fecha: Abril 2021
 		  /*border-style: solid;
 		   border-color: blue;*/
 		  grid-template-columns: 23% 62% 15%;
-		  grid-template-rows: 10% 0% 100% 10%;
+		  grid-template-rows: 11% 10% 110% 30% 80%;
 		  /*grid-gap: 1%;*/
 		  
 		  height: 100vh;
@@ -59,10 +59,10 @@ fecha: Abril 2021
 		
 		.nvar{
 			position:static;
-			margin-left:32%;
+			margin-left:7.5%;
 			 overflow: hidden;
 		  background-color: #333; 
-			width:44%;
+			width:85%;
 		}
 		.nvar a {
 		  float: left;
@@ -121,7 +121,7 @@ fecha: Abril 2021
 			
 			
 		  grid-column: 1 / span 3;
-		  grid-row: 3 / span 1;
+		  grid-row: 3 / span 3;
 		   background-color:rgba(0,0,255,0.1);
 		   height:50%
 		}

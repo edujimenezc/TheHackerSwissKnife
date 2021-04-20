@@ -388,13 +388,16 @@ ul.breadcrumb li a:hover {
 border-top-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    border-right-width: 1px;		
+    border-right-width: 1px;	
+
+    
+	
 
 
 		grid-column: 1 / span 3;
 		  grid-row: 4 / span 2;
 		   background-color:rgba(0,0,255,0.1);
-		   margin-left:5%
+		   
 		}
 		#copy{
 			
