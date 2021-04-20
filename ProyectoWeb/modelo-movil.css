@@ -148,6 +148,49 @@ fecha: Abril 2021
 }
 
 
+.arriba_contenido_SV{
+				
+			}
+		.arriba_contenido_SV h1{
+   font-size:300%;
+    margin-left:25%;
+
+   
+	
+}
+
+#textoaRojo{
+	display:inline;
+}
+
+#textoaAmarillo{
+	display:inline;
+}
+
+
+
+
+
+
+
+
+
+#textoaRojo:hover{
+	color:red
+	
+	 
+}
+#textoaRojo{
+	transition: color 0.8s linear 0.2s;
+}
+
+#textoaAmarillo:hover{
+	color:yellow;
+	 
+}
+#textoaAmarillo{
+	transition: color 0.8s linear 0.2s;
+}
 
 
 
@@ -335,7 +378,7 @@ margin-top: 15%;
 			margin-top:-3%;
 			float:right;
 			word-wrap: break-word;
-			margin-left:2%;
+			margin-left:0.5%;
 			margin-right:2%;
 			
 		}#nVeces:hover{

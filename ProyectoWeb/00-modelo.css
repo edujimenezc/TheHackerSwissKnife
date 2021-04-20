@@ -157,8 +157,54 @@ fecha: Abril 2021
 
 
 
+.arriba_contenido_SV{
+				
+			}
+		.arriba_contenido_SV h1{
+   font-size:300%;
+    margin-left:15%;
+
+   
+	
+}
+
+#textoaRojo{
+	display:inline;
+}
+
+#textoaAmarillo{
+	display:inline;
+}
 
 
+
+
+
+
+
+
+
+#textoaRojo:hover{
+	color:red
+	
+	 
+}
+#textoaRojo{
+	transition: color 0.8s linear 0.2s;
+}
+
+#textoaAmarillo:hover{
+	color:yellow;
+	 
+}
+#textoaAmarillo{
+	transition: color 0.8s linear 0.2s;
+}
+#SpanishVectorPic{
+	width:73%;
+	height:73%;
+	margin-left:15%;
+}
 
 
 
@@ -324,7 +370,12 @@ margin-top: 15%;
 		}
 	
 	
-		
+		.noticiaSV a{
+			
+	color: #FF0000; 
+
+			
+		}
 		
 		.migas {
 			 border-style: solid;
