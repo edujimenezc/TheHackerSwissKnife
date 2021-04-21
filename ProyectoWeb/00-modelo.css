@@ -207,6 +207,28 @@ fecha: Abril 2021
 }
 
 
+.arriba_contenido_B h1{
+   
+   font-size:300%;
+    margin-left:45%;
+
+   
+	
+}
+
+.arriba_contenido_B h1:hover{
+  color:blue;
+
+   
+	
+}
+
+
+.arriba_contenido_B h1{
+  transition: color 0.8s linear 0.2s;
+   
+	
+}
 
 		#gifvector{
 			width:30%;
@@ -281,6 +303,77 @@ word-wrap: break-word;
 }
 
 
+.noticias_B{
+	margin-top:20%;
+	margin-left:2%;
+	margin-right:2%;
+	
+}
+.noticias_B a{
+	color:white;
+	
+	
+}
+.noticia00{
+	
+	
+}
+
+#noticiaTitulo{
+	font-size: 175%;
+    color: rgba(50,50,350);
+	
+	
+}
+
+
+
+#foto0{
+	width:30%;
+	float:right;
+	
+}
+
+
+#texto0{
+	color: white;
+	
+}
+
+
+#finNoticias{
+	margin-top:20%;
+	text-align:center;
+}
+
+
+.codigo{
+	margin-right:75%;
+	box-sizing: content-box;
+	background-color:grey;
+}
+.codigo code{
+	
+	font-size: 125%;
+	color:black;
+}
+
+
+
+
+
+.fotoInfoVector{
+	width:50%;
+	
+	height:auto;
+}
+
+#fotoInfoVectorB{
+	margin-left:25%;
+	width:50%;
+	
+	height:auto;
+}
 
 
 
