@@ -205,9 +205,16 @@ fecha: Abril 2021
     margin-left:35%;
 
    
+   
+   
+   
 	
 }
+#h1post0{
+	
+    margin-left: 8%;
 
+}
 
 		#gifvector{
 			width:30%;
@@ -357,7 +364,9 @@ margin-top: 15%;
 		}
 	
 	
-		
+		.codigo{
+			margin-right:0%;
+		}
 		
 		.migas {
 			 border-style: solid;
