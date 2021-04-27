@@ -364,9 +364,7 @@ margin-top: 15%;
 		}
 	
 	
-		.codigo{
-			margin-right:0%;
-		}
+		
 		
 		.migas {
 			 border-style: solid;
@@ -440,7 +438,9 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 		
-		
+		.codigo{
+			margin-right:0%;
+		}
 		
 		/*fin migas*/
 		
