@@ -18,6 +18,12 @@ function clickCounter(){
 $("#nVeces").text('Has cargado '+sessionStorage.clickcount+' veces '+'  la página del sitio');
 }}
 
+var getData = function() {
+	var name = document.getElementById("usuario").value;
+	var pass = document.getElementById("contrasenia").value;
+	console.log(name+ " " +pass);
+	
+}
 
 
 function migasI() {

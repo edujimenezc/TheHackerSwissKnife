@@ -1,5 +1,4 @@
-<!---->
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <!--
@@ -14,7 +13,7 @@ fecha: Abril 2021
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	<!-- importante SEO para la etiqueta del navegador -->
-	<title>Programming Anki Vector</title>
+	<title>Sobre Mi</title>
 	
 	<!-- una fuente de Google -->
 	<link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -23,8 +22,8 @@ fecha: Abril 2021
 	<!-- una hoja de estilos externa-->
 	
 	<!-- una hoja de estilos personalizada-->
-	<link href="00-modelo.css"  rel="stylesheet"/>
-	<link href="modelo-movil.css" media="(max-width: 600px)" rel="stylesheet"/>
+	<link href="../CSS/00-modelo.css"  rel="stylesheet"/>
+	<link href="../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet"/>
 	
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -33,7 +32,7 @@ fecha: Abril 2021
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
-	<script src="00-modelo.js"></script>
+	<script src="../JS/00-modelo.js"></script>
 	
 
 </head>
@@ -47,7 +46,7 @@ fecha: Abril 2021
 		
 		<div class="nvar"><!--menu -->
 		<nav>
-		<a id="otro" href="index.html">Inicio</a>
+		<a id="otro" href="../index.html">Inicio</a>
 		<a href="proyecto-spanish-vector.html">Project Spanish Vector</a>
 		<a href="novedades.html">Blog</a>
 		<a href="about-us.html">Contacto</a>
@@ -69,7 +68,7 @@ fecha: Abril 2021
 
 		<div class="lado">
 		<div class="informacion">
-		<img id="fotomia" src='imagenes/fotomia.jpg' alt="Foto de Eduardo Jim&eacutenez Cobos"/>
+		<img id="fotomia" src='../SOURCES/imagenes/fotomia.jpg' alt="Foto de Eduardo Jim&eacutenez Cobos"/>
 		<p id="miNombre">Eduardo Jim&eacutenez Cobos </p></br><p id="miTexto">Desarrollador de Aplicaciones Multiplataforma/IA</p>
 		</br><p id="miTexto"><a href="https://www.linkedin.com/in/eduardo-jimenez-cobos" target="_blank">Linkedin</a></p>
 		</br><p id="miTexto"><a href="https://github.com/edujimenezc" target="_blank">GitHub</a></p>
@@ -87,44 +86,26 @@ fecha: Abril 2021
 		
 		
 		<div class="contenido">
-		<div class="arriba_contenido_B">
-		<h1>Blog</h1>
-		
-		<div class="noticias_B">
-		<a href="blogs/post0.html"><p id="noticiaTitulo"><u>Primeros Pasos</u></p><a/>
-		
-		</br>
-		<p>
-		Comenzando Project Spanish Vector
-		Primero de todo encenderemos nuestra Raspberry Pi con Raspberry Pi OS instalado y la actualizaremos, para ello (...)
-		<a href="blogs/post0.html"><img id ="foto0" src="imagenes/raspberrypi.jpg" alt="Raspberry Pi image"></img></a>
-		</br>	</br>	</br>Pulsa <a href="blogs/post0.html">aqui</a> para continuar leyendo
-		</br>
-		</br>
-		</br>
-		</br>
-		</br>
-		Fecha = 27/04/2021
-		</p></br>
 		
 		
-		
+		<div>
+		 <h1 id="textoMiTitulo">Sobre M&iacute </h1></br>
+		<p id="textoMiInfo">
+		Mi nombre es Eduardo Jim&eacutenez Cobos, soy estudiante de 1º de DAM en Cenec M&aacutelaga y esta página web ha sido desarrollada como trabajo del trimestre de las asignaturas:</br>
+	
+		</p>
+		<ul>
+		<li>-Lenguaje de Marcas</li>
+		<li>-Sistemas Inform&aacuteticos </li>
+		<li>-Entornos de desarrollo</li>
+		</ul></br>
+		<p id="textoMiInfo">Profesor: Carlos Alberto Boni Niklison</p>
+		<a href="https://www.cenecmalaga.es/" target="_blank"><img id="fotocenec" src="../SOURCES/imagenes/cenec.png" width=15% height=auto alt="Cenec-M&aacutelaga Image"/></a>
 		</div>
 		
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		</div>
-		
-		</br>
-		<p id="finNoticias">-- No hay mas noticias por ahora--</p>
 		
 		
 		
@@ -161,7 +142,7 @@ fecha: Abril 2021
 </div>
 <script>
 clickCounter();
-migasB();
+migasC();
 	</script>
 </body>
 </html>

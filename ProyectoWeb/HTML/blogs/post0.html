@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <!--
@@ -13,7 +13,7 @@ fecha: Abril 2021
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	<!-- importante SEO para la etiqueta del navegador -->
-	<title>Sobre Mi</title>
+	<title>Programming Anki Vector</title>
 	
 	<!-- una fuente de Google -->
 	<link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -22,8 +22,8 @@ fecha: Abril 2021
 	<!-- una hoja de estilos externa-->
 	
 	<!-- una hoja de estilos personalizada-->
-	<link href="00-modelo.css"  rel="stylesheet"/>
-	<link href="modelo-movil.css" media="(max-width: 600px)" rel="stylesheet"/>
+	<link href="../../CSS/00-modelo.css"  rel="stylesheet"/>
+	<link href="../../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet"/>
 	
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -32,7 +32,7 @@ fecha: Abril 2021
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
-	<script src="00-modelo.js"></script>
+	<script src="../../JS/00-modelo.js"></script>
 	
 
 </head>
@@ -46,10 +46,10 @@ fecha: Abril 2021
 		
 		<div class="nvar"><!--menu -->
 		<nav>
-		<a id="otro" href="index.html">Inicio</a>
-		<a href="proyecto-spanish-vector.html">Project Spanish Vector</a>
-		<a href="novedades.html">Blog</a>
-		<a href="about-us.html">Contacto</a>
+		<a id="otro" href="../../index.html">Inicio</a>
+		<a href="../proyecto-spanish-vector.html">Project Spanish Vector</a>
+		<a href="../novedades.html">Blog</a>
+		<a href="../about-us.html">Contacto</a>
 		<a href="#proximamente"><button onclick="clickCounter()" type="button">Proximamente</button></a>
 		
 		</nav>
@@ -68,7 +68,7 @@ fecha: Abril 2021
 
 		<div class="lado">
 		<div class="informacion">
-		<img id="fotomia" src='imagenes/fotomia.jpg' alt="Foto de Eduardo Jim&eacutenez Cobos"/>
+		<img id="fotomia" src='../../SOURCES/imagenes/fotomia.jpg' alt="Foto de Eduardo Jim&eacutenez Cobos"/>
 		<p id="miNombre">Eduardo Jim&eacutenez Cobos </p></br><p id="miTexto">Desarrollador de Aplicaciones Multiplataforma/IA</p>
 		</br><p id="miTexto"><a href="https://www.linkedin.com/in/eduardo-jimenez-cobos" target="_blank">Linkedin</a></p>
 		</br><p id="miTexto"><a href="https://github.com/edujimenezc" target="_blank">GitHub</a></p>
@@ -86,21 +86,37 @@ fecha: Abril 2021
 		
 		
 		<div class="contenido">
+		<div class="arriba_contenido">
+		<h1 id="h1post0">Primeros Pasos
+		
+		</h1>
+		<img id="gifvector"src="../../SOURCES/imagenes/raspberrypi.jpg" alt="raspberry pi image"/>
+		</div>
 		
 		
-		<div>
-		 <h1 id="textoMiTitulo">Sobre M&iacute </h1></br>
-		<p id="textoMiInfo">
-		Mi nombre es Eduardo Jim&eacutenez Cobos, soy estudiante de 1º de DAM en Cenec M&aacutelaga y esta página web ha sido desarrollada como trabajo del trimestre de las asignaturas:</br>
-	
-		</p>
+		<div class="noticia">
+		
+		<p>
+		Necesitaremos:</br>
 		<ul>
-		<li>-Lenguaje de Marcas</li>
-		<li>-Sistemas Inform&aacuteticos </li>
-		<li>-Entornos de desarrollo</li>
+		<li> -Una Raspberry Pi</li>
+		<li> -Tener python instalado</li>
+		<li> -Descargar e instalar la sdk de vector</li>
+		<li> -El programa Spanish Vector</li>
+		
+		
+		
 		</ul></br>
-		<p id="textoMiInfo">Profesor: Carlos Alberto Boni Niklison</p>
-		<a href="https://www.cenecmalaga.es/" target="_blank"><img id="fotocenec" src="imagenes/cenec.png" width=15% height=auto alt="Cenec-M&aacutelaga Image"/></a>
+		Primero de todo encenderemos nuestra Raspberry Pi con Raspberry Pi OS instalado y la actualizaremos, para ello abrir el terminal y escribir: </br>
+		</br><div class="codigo"><pre><code>sudo apt-get update</code></pre></div></br>
+		</br>Despu&eacutes instalaremos python si no lo tenemos instalado:
+		</br><div class="codigo"><pre><code><a href="https://python-guide-es.readthedocs.io/es/latest/starting/install3/linux.html" target="_blank">Enlace</a></code></pre></div></br>
+		</br>Finalmente instalaremos la sdk y seguiremos los pasos que indica para configuar nuestro Vector y as&iacute tenerlo conectado a nuestra Raspberry para comenzar a hacer pruebas
+		</br><div class="codigo"><pre><code><a href="https://developer.anki.com/vector/docs" target="_blank">Instalar sdk</a></code></pre></div></br>
+		</br>Para terminar, probaremos el programa SpanishVector.py y podremos empezar a hacer uso de &eacute, aunque a&uacuten queda la mayor parte.
+		
+		</p></br>
+		<img id="fotoInfoVectorB" src="../../SOURCES/imagenes/anki-vector-lloviendo.gif"  alt="Vector Robot with a cloud Image"/>
 		</div>
 		
 		
@@ -142,7 +158,7 @@ fecha: Abril 2021
 </div>
 <script>
 clickCounter();
-migasC();
+migasB();
 	</script>
 </body>
 </html>
