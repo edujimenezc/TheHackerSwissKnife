@@ -1,5 +1,4 @@
-
-
+let usuario = [];
 
 var getNombre = function () {
 
@@ -38,12 +37,12 @@ let pass = getPass();
 
 function validarXML() {
 	
-	console.log("Qui empieza la funcion del boni");
+	
 	// lee desde aquí.
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
-			console.log("Qui empieza la funcion del boni2222");
+			
 			 miFuncion(this);
 		
 		}
@@ -56,7 +55,7 @@ function miFuncion(xml) {
 	var i;
 	var usrNom;
 	var usrPsw;
-	var usuario = [];
+	
 	var xmlDoc = xml.responseXML;
 	var x = xmlDoc.getElementsByTagName("usuario");
 	
@@ -72,22 +71,30 @@ function miFuncion(xml) {
 		// actualizo la tabla de visualización
 
 		if (usrNom == getNombre() && usrPsw == getPass()) {
+			usuario[0] = usrNom;
+			usuario[1]= usrPsw;
+			localStorage.setItem("usuario", usuario);
+			usuarioRegistrado = localStorage.getItem("usuario");
 			console.log("USUARIO CORRECTO");
-			
+			localStorage.setItem("usuarioNombre", usuario[0]);
+			 
+			localStorage.setItem("usuarioPass", usuario[1]);
+			  
 			
 			alert("Usuario y contraseña correctos");
-			comp = true;
-			guardar_localStorage(true);
-			 validado = obtener_localStorage();
-			console.log(validado);
+			
+			
+			
+			
 			window.open("../index.html", "_self")
 		
 			
 						
 			break;
 		} else {
+			/*alert("USUARIO INCORRECTO");
 			console.log("USUARIO INCORRECTO");
-			
+			break;*/
 
 		}
 

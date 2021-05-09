@@ -576,7 +576,45 @@ border-top-width: 1px;
 			
 			text-align:center}
 
+#divFormulario {
+	margin-left: 25%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	height: 50%;
+	width: 50%;
+	padding: 15%;
+	background-color: cadetblue;
+	border-style: solid;
+	border-color: aqua;
+}
 
+#formulario {
+	padding:15%;
+
+
+
+}
+#irRegistro {
+	padding: 18%;
+}
+
+
+#enviarBoton{
+	padding:5%;
+	margin-left:34%;
+}
+#usuario{
+
+	padding:5%;
+}
+
+#contrasenia {
+	padding: 5%;
+}
+
+#textoInicioSesion {
+	margin-left: 32%;
+}
 /*
 
 pseudoclases, asignarles estilos en este orden llamado LVHA:

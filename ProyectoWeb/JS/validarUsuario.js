@@ -1,33 +1,15 @@
-let validado;
-let comp = false;
-function guardar_localStorage(comp2) {
+let usuarioRegistrado;
 
-    localStorage.setItem("comp", comp2);
-}
-
-function obtener_localStorage() {
-
-    return localStorage.getItem("comp");
-}
-
-
-
-
-var inicioSesionONo = function () {
-
-    guardar_localStorage(comp);
-    validado = obtener_localStorage();
-
-    console.log(validado);
-    if (validado == "false") {
-        alerta();
-
+var ComprobacionInicio = function () {
+    console.log(localStorage.getItem("usuarioNombre"));
+    if (localStorage.getItem("usuarioNombre") != null) {
+        
+        alert("Sesión iniciada correctamente");
     } else {
-        console.log("la sesion está iniciada ")
-        console.log(nombre);
-    }//ahora mostrar la parte oculta
-
+        alerta();
+    }
 }
+
 
 
 
@@ -35,7 +17,7 @@ var inicioSesionONo = function () {
 var alerta = function () {
 
     swal({
-        title: "¡Biemvenido!",
+        title: "¡Bienvenido!",
         text: "¿Deseas iniciar sesión o seguir navegando como invitado?",
 
         buttons: {

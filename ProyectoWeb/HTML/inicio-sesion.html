@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><title></title>
-<script type="text/javascript" src="../JS/alertaInicioSesion.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de sesión</title>
+    <link href="../CSS/00-modelo.css" rel="stylesheet" />
+    <link href="../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet" />
+    <script type="text/javascript" src="../JS/alertaInicioSesion.js"></script>
 </head>
 <body>
+    <div id="divFormulario">
 
-<form action="" id="form">
-<input type="text" name="usuario" id="usuario" placeholder="Usuario"><br>
-<input type="text" name="contrasenia"  id="contrasenia" placeholder="Contraseña"><br>
+        <p id="textoInicioSesion">Inicia Sesión</p>
+        <form action="" id="formulario">
+            <input type="text" name="usuario" id="usuario" placeholder="Usuario"><br>
+            <input type="text" name="contrasenia" id="contrasenia" placeholder="Contraseña"><br>
+            </br>
+            <button type="button" id="enviarBoton"  onclick="getData()">enviar</button>
 
-<button type="button" onclick="getData()">enviar</button>
 
-
-</form>
-
+        </form>
+        <a  id="irRegistro" href="#">¿No está registrado?</a>
+    </div>
 
 
 </body>
