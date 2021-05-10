@@ -47,7 +47,7 @@ function validarXML() {
 		
 		}
 	};
-	xhr.open("GET", "https://github.com/edujimenezc/Publico/blob/main/ProyectoWeb/XML/registrados.xml", true);
+	xhr.open("GET", "https://edujimenezc.github.io/Publico/ProyectoWeb/XML/registrados.xml", true);
 	xhr.send();
 }
 
