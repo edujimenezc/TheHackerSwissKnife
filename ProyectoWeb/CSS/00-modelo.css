@@ -66,14 +66,14 @@ fecha: Abril 2021
 		
 		
 		
-		.nvar{
+	/*	#nvar{
 			position:static;
 			margin-left:30%;
 			 overflow: hidden;
 		  background-color: #333; 
 			width:47%;
-		}
-		.nvar a {
+		}*/
+		#nvar a {
 		  float: left;
 		  font-size: 16px;
 		  color: white;
@@ -81,10 +81,10 @@ fecha: Abril 2021
 		  padding: 14px 16px;
 		  text-decoration: none;
 		}
-		.nvar a:hover{
+		#nvar a:hover{
 			color:yellow;
 		}
-		.nvar a{
+		#nvar a{
 			
 	transition: color 0.8s linear 0.2s;
 

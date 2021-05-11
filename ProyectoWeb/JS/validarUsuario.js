@@ -1,21 +1,28 @@
 let usuarioRegistrado;
 let zona;
+let menu; 
 
 
-
-
+var ajuste = function () {
+    
+    menu.setAttribute("style","position:static;margin-left:37%;overflow: hidden;background-color: #333;width:36%;" ); 
+}
 
 var ComprobacionInicio = function () {
+    menu = document.getElementById("nvar");
     zona = document.getElementById("zonaUsuario");
     zona.style.display = 'none';
-    if (localStorage.getItem("usuarioNombre") != null) {
+   if (localStorage.getItem("usuarioNombre") != null) {
         zona.style.display = 'inline';
-        alert("Sesión iniciada correctamente");
+       menu.setAttribute("style","position:static;margin-left:30%;overflow: hidden;background-color: #333;width:47%;");
+
+        
         
        
         
 
-    } else {
+   } else {
+       ajuste();
         alerta();
     }
 }
