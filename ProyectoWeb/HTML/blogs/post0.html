@@ -9,31 +9,34 @@ fecha: Abril 2021
 -->
 
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<!-- importante SEO para la etiqueta del navegador -->
 	<title>Programming Anki Vector</title>
-	
+
 	<!-- una fuente de Google -->
-	<link rel="preconnect" href="https://fonts.gstatic.com"/>
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
-	
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
 	<!-- una hoja de estilos externa-->
-	
 	<!-- una hoja de estilos personalizada-->
-	<link href="../../CSS/00-modelo.css"  rel="stylesheet"/>
-	<link href="../../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet"/>
-	
+	<link href="../../CSS/00-modelo.css" rel="stylesheet" />
+	<link href="../../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet" />
+
 	<!-- iconos u otros elementos externos -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
 	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	
+	<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
 	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
 	<script src="../../JS/00-modelo.js"></script>
-	
+	<script type="text/javascript" src="../../JS/alertaInicioSesion.js"></script>
+	<script type="text/javascript" src="../../JS/validarUsuario.js"></script>
+
 
 </head>
 
@@ -44,14 +47,13 @@ fecha: Abril 2021
 	
 		<div class="encabezado">
 		
-		<div class="nvar"><!--menu -->
+		<div id="nvar"><!--menu -->
 		<nav>
 		<a id="otro" href="../../index.html">Inicio</a>
 		<a href="../proyecto-spanish-vector.html">Project Spanish Vector</a>
 		<a href="../novedades.html">Blog</a>
 		<a href="../about-us.html">Contacto</a>
-		<a href="#proximamente"><button onclick="clickCounter()" type="button">Proximamente</button></a>
-		
+		<a id="zonaUsuario" href="../zona-usuario.html">Zona Privada</a>
 		</nav>
 		</div>
 		
@@ -157,6 +159,7 @@ fecha: Abril 2021
 </footer>
 </div>
 <script>
+    ComprobacionInicio();
 clickCounter();
 migasB();
 	</script>

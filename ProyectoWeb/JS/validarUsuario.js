@@ -27,7 +27,7 @@ var ComprobacionInicio = function () {
        menu.setAttribute("style","position:static;margin-left:30%;overflow: hidden;background-color: #333;width:47%;");
        }
        if (width <= 750) {
-           menu.setAttribute("style", "position:static;margin-left: 7.5%;overflow: hidden;background-color: #333;width: 85 %;");
+           menu.setAttribute("style", "position:static;margin-left: 0.5%;overflow: hidden;background-color: #333;width: 85 %;");
        }
 
         
