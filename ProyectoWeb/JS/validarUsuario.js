@@ -1,14 +1,26 @@
 let usuarioRegistrado;
+let zona;
+
+
+
+
 
 var ComprobacionInicio = function () {
-    console.log(localStorage.getItem("usuarioNombre"));
+    zona = document.getElementById("zonaUsuario");
+    zona.style.display = 'none';
     if (localStorage.getItem("usuarioNombre") != null) {
-        
+        zona.style.display = 'inline';
         alert("Sesión iniciada correctamente");
+        
+       
+        
+
     } else {
         alerta();
     }
 }
+
+
 
 
 

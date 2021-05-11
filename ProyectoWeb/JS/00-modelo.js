@@ -34,3 +34,7 @@ function migasB() {
 $('#this_title').html('<strong>' + 'Blog' + '</strong>')}
 function migasC() {
 $('#this_title').html('<strong>' + 'Contacto' + '</strong>')} 
+
+function migasZ() {
+    $('#this_title').html('<strong>' + 'Zona Privada' + '</strong>')
+}

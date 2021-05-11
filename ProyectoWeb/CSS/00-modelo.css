@@ -68,10 +68,10 @@ fecha: Abril 2021
 		
 		.nvar{
 			position:static;
-			margin-left:32%;
+			margin-left:30%;
 			 overflow: hidden;
 		  background-color: #333; 
-			width:44%;
+			width:47%;
 		}
 		.nvar a {
 		  float: left;
@@ -321,7 +321,7 @@ word-wrap: break-word;
 
 #noticiaTitulo{
 	font-size: 175%;
-    color: rgba(50,50,350);
+    color: rgba(50,50,250);
 	
 	
 }
@@ -614,6 +614,27 @@ border-top-width: 1px;
 
 #textoInicioSesion {
 	margin-left: 32%;
+}
+
+#tituloZona {
+	margin-left: 30%;
+
+}
+	#tituloZona:hover {
+		color: red;
+		transition: color 0.8s linear 0.2s;
+	}
+
+#nombreDelUsuario {
+
+	margin-left:39%;
+}
+
+
+#botonCambioColor {
+margin-top:10%;
+margin-left:39%;
+
 }
 /*
 
