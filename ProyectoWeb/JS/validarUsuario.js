@@ -2,6 +2,14 @@ let usuarioRegistrado;
 let zona;
 let menu; 
 
+let width = $(window).width();
+let heigth = $(window).height();
+
+
+
+
+
+
 
 var ajuste = function () {
     
@@ -13,8 +21,14 @@ var ComprobacionInicio = function () {
     zona = document.getElementById("zonaUsuario");
     zona.style.display = 'none';
    if (localStorage.getItem("usuarioNombre") != null) {
-        zona.style.display = 'inline';
+       zona.style.display = 'inline';
+       //aqui para ajustar a movil o no
+       if (width > 750) {
        menu.setAttribute("style","position:static;margin-left:30%;overflow: hidden;background-color: #333;width:47%;");
+       }
+       if (width <= 750) {
+           menu.setAttribute("style", "position:static;margin-left: 7.5%;overflow: hidden;background-color: #333;width: 85 %;");
+       }
 
         
         
