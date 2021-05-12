@@ -31,13 +31,16 @@ fecha: Abril 2021
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-		body{
-			overflow-y:scrollbar; 
-			overflow-x:hidden; 
-			font-family:Verdana,Century Gothic,Candara,Futara,Trebuchet MS;
-			color:white;
-			background-color:black;
-		}
+body {
+	/*overflow-y: scrollbar;
+	overflow-x: hidden;*/
+	font-family: Verdana,Century Gothic,Candara,Futara,Trebuchet MS;
+	color: white;
+	/*background-image: url("../SOURCES/imagenes/fondoAzul.jpg");*/
+	/*background-image: url("../SOURCES/imagenes/fondoMetalBarras.jpg");*/
+	background-image: url("../SOURCES/imagenes/fondoRojo.png");
+	/*background-color: black;*/
+}
    a{color: #FF0000; }
 	
 
@@ -53,16 +56,15 @@ fecha: Abril 2021
 		  height: 100vh;
 		  width: 100vw;
 		}
-		
-		.encabezado {
-			
-			overflow:auto;/*
+
+.encabezado {
+	overflow: auto; /*
 		  border-style: solid;
 		  border-color: blue;*/
-		  grid-column: 1 / span 3;
-		  grid-row: 1 / span 2;
-		 background-color:rgba(0,0,20)
-		}
+	grid-column: 1 / span 3;
+	grid-row: 1 / span 2;
+	/*background-color:rgba(0,0,20)*/
+}
 		
 		
 		
@@ -99,7 +101,7 @@ fecha: Abril 2021
 			width:100%;
 			height:auto;
 			overflow:auto;
-		  border-style: solid;
+		 /* border-style: solid;*/
 		  border-color: red;
     
     border-top-width: 1px;
@@ -109,30 +111,24 @@ fecha: Abril 2021
 		
 		  grid-column: 1 / span 1;
 		  grid-row: 3 / span 1;
-		   background-color:rgba(0,0,255,0.1)
+		  /* background-color:rgba(0,0,255,0.1)*/
 		}
-		
-		.contenido {
-			
-			overflow-y:auto; overflow-x:hidden; 
-			 border-style: solid;
-		  border-color: red;
-    
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 0px;
-    border-right-width: 1px;
 
-
-			overflow:auto;
-			
-			
-			
-			
-		  grid-column: 2 / span 1;
-		  grid-row: 3 / span 1;
-		   background-color:rgba(0,0,255,0.1)
-		}
+.contenido {
+	overflow: scroll;
+	/*overflow-y:auto; 
+			overflow-x:hidden;*/
+	/* border-style: solid;*/
+	border-color: red;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 0px;
+	border-right-width: 1px;
+	overflow: auto;
+	grid-column: 2 / span 1;
+	grid-row: 3 / span 1;
+	/*background-color:rgba(0,0,255,0.1)*/
+}
 		.contenido::-webkit-scrollbar {
     display: none;
 			}
@@ -471,7 +467,7 @@ margin-top: 15%;
 		}
 		
 		.migas {
-			 border-style: solid;
+			 /*border-style: solid;*/
 		  border-color: red;
 			 border-top-width: 1px;
     border-left-width: 0px;
@@ -479,7 +475,7 @@ margin-top: 15%;
     border-right-width: 0px;
 		  grid-column: 3 / span 1;
 		  grid-row: 3 / span 1;
-		   background-color:rgba(0,0,255,0.1);
+		   /*background-color:rgba(0,0,255,0.1);*/
 		 animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -569,7 +565,7 @@ border-top-width: 1px;
 
 		grid-column: 1 / span 3;
 		  grid-row: 4 / span 2;
-		   background-color:rgba(0,0,255,0.1);
+		/*   background-color:rgba(0,0,255,0.1);*/
 		   
 		}
 		#copy{

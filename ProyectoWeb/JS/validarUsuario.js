@@ -1,15 +1,23 @@
 let usuarioRegistrado;
 let zona;
 let menu; 
-
+let botonISesion;
+let botonCSesion;
 let width = $(window).width();
 let heigth = $(window).height();
 
 
 
+function abrirIniciarSesion(){
+    window.open("../ProyectoWeb/HTML/inicio-sesion.html", "_self")
+}
 
-
-
+function cerrarSesion() {
+    localStorage.removeItem('usuarioNombre');
+    localStorage.removeItem('usuarioPass');
+    localStorage.removeItem('usuario');
+    location.reload();
+}
 
 var ajuste = function () {
     
@@ -19,7 +27,12 @@ var ajuste = function () {
 var ComprobacionInicio = function () {
     menu = document.getElementById("nvar");
     zona = document.getElementById("zonaUsuario");
+    botonISesion = document.getElementById("botonInicioSesion");
+    botonCSesion = document.getElementById("botonCerrarSesion");
     zona.style.display = 'none';
+    botonISesion.style.display = 'inline';
+    botonCSesion.style.display = 'none';
+
    if (localStorage.getItem("usuarioNombre") != null) {
        zona.style.display = 'inline';
        //aqui para ajustar a movil o no
@@ -29,7 +42,8 @@ var ComprobacionInicio = function () {
        if (width <= 750) {
            menu.setAttribute("style", "position:static;margin-left: 0.5%;overflow: hidden;background-color: #333;width: 85 %;");
        }
-
+       botonISesion.style.display = 'none';
+       botonCSesion.style.display = 'inline';
         
         
        
