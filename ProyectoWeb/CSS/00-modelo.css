@@ -32,14 +32,14 @@ fecha: Abril 2021
   background: #555; 
 }
 body {
-	/*overflow-y: scrollbar;
-	overflow-x: hidden;*/
-	font-family: Verdana,Century Gothic,Candara,Futara,Trebuchet MS;
-	color: white;
-	/*background-image: url("../SOURCES/imagenes/fondoAzul.jpg");*/
-	/*background-image: url("../SOURCES/imagenes/fondoMetalBarras.jpg");*/
-	background-image: url("../SOURCES/imagenes/fondoRojo.png");
-	/*background-color: black;*/
+    overflow-y: scrollbar;
+    overflow-x: hidden;
+    font-family: Verdana,Century Gothic,Candara,Futara,Trebuchet MS;
+    color: white;
+    /*background-image: url("../SOURCES/imagenes/fondoAzul.jpg");*/
+    /*background-image: url("../SOURCES/imagenes/fondoMetalBarras.jpg");*/
+    background-image: url("../SOURCES/imagenes/fondoRojo.png");
+    /*background-color: black;*/
 }
    a{color: #FF0000; }
 	
@@ -632,6 +632,17 @@ margin-top:10%;
 margin-left:39%;
 
 }
+#botonInicioSesion {
+	margin-top: -3%;
+	float: right;
+}
+#botonCerrarSesion {
+	float: right;
+	margin-top:-3%;
+}
+
+
+
 /*
 
 pseudoclases, asignarles estilos en este orden llamado LVHA:

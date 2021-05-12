@@ -36,15 +36,15 @@ let nombre = getNombre();
 let pass = getPass();
 
 function validarXML() {
-	
-	
+
+
 	// lee desde aquí.
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
-			
-			 miFuncion(this);
-		
+
+			miFuncion(this);
+
 		}
 	};
 	xhr.open("GET", "https://edujimenezc.github.io/Publico/ProyectoWeb/XML/registrados.xml", true);
@@ -55,12 +55,12 @@ function miFuncion(xml) {
 	var i;
 	var usrNom;
 	var usrPsw;
-	
+
 	var xmlDoc = xml.responseXML;
 	var x = xmlDoc.getElementsByTagName("usuario");
-	
-	
-	
+
+
+
 	//var tabla = "<table><tr><th>Empleado</th><th>Clave</th></tr>";
 	for (i = 0; i < x.length; i++) {
 		// leo las etiquetas que me interesan del objeto
@@ -72,24 +72,24 @@ function miFuncion(xml) {
 
 		if (usrNom == getNombre() && usrPsw == getPass()) {
 			usuario[0] = usrNom;
-			usuario[1]= usrPsw;
+			usuario[1] = usrPsw;
 			localStorage.setItem("usuario", usuario);
 			usuarioRegistrado = localStorage.getItem("usuario");
 			console.log("USUARIO CORRECTO");
 			localStorage.setItem("usuarioNombre", usuario[0]);
-			 
+
 			localStorage.setItem("usuarioPass", usuario[1]);
-			  
-			
+
+
 			alert("Usuario y contraseña correctos");
-			
-			
-			
-			
+
+
+
+
 			window.open("../index.html", "_self")
-		
-			
-						
+
+
+
 			break;
 		} else {
 			/*alert("USUARIO INCORRECTO");
@@ -103,7 +103,7 @@ function miFuncion(xml) {
 		registrados.push(usuario);
 
 	}
-
+	
 	// document.getElementById("contenidoXML").innerHTML = tabla;
 
 	// muestro en consola el array de usuarios registrados
@@ -112,7 +112,8 @@ function miFuncion(xml) {
 			console.log(datos);
 		});
 	});
-	
+	if (usuario[0] != getNombre()) {
+		alert("USUARIO INCORRECTO");
+	}
 }
-
 

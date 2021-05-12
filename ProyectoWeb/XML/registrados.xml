@@ -31,10 +31,16 @@
 	</usuario>
 	
 	<usuario>
-		<nombre>edu</nombre>
-		<clave>patron</clave>
+		<nombre>EDUARDO</nombre>
+		<clave>JIMENEZ</clave>
 		
 	</usuario>
+	<usuario>
+		<nombre>EDUARDO</nombre>
+		<clave>JIMÉNEZ</clave>
+
+	</usuario>
+	
 	
 	
 	

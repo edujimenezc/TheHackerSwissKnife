@@ -17,6 +17,7 @@ function cerrarSesion() {
     localStorage.removeItem('usuarioPass');
     localStorage.removeItem('usuario');
     location.reload();
+    localStorage.setItem('contadorN', 0);
 }
 
 var ajuste = function () {
@@ -25,6 +26,7 @@ var ajuste = function () {
 }
 
 var ComprobacionInicio = function () {
+    
     menu = document.getElementById("nvar");
     zona = document.getElementById("zonaUsuario");
     botonISesion = document.getElementById("botonInicioSesion");
@@ -51,7 +53,11 @@ var ComprobacionInicio = function () {
 
    } else {
        ajuste();
-        alerta();
+       console.log(localStorage.getItem('contadorN'));
+       if (localStorage.getItem('contadorN') == '0') {
+           alerta();
+           localStorage.setItem('contadorN', 1);
+       }
     }
 }
 
@@ -83,6 +89,10 @@ var alerta = function () {
                     window.open("../ProyectoWeb/HTML/inicio-sesion.html", "_self")
                     break;
 
+                case "cancel":
+
+                    localStorage.setItem('contadorN', 1);
+                    break;
 
             }
         });
