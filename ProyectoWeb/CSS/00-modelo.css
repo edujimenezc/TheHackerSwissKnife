@@ -58,16 +58,22 @@ body {
 		}
 
 .encabezado {
-	overflow: auto; /*
+	overflow-y: hidden;
+	/*
 		  border-style: solid;
 		  border-color: blue;*/
 	grid-column: 1 / span 3;
 	grid-row: 1 / span 2;
 	/*background-color:rgba(0,0,20)*/
 }
-		
-		
-		
+
+#logoPrincipal {
+	margin-top:-3%;
+
+
+
+}
+
 	/*	#nvar{
 			position:static;
 			margin-left:30%;
@@ -75,14 +81,14 @@ body {
 		  background-color: #333; 
 			width:47%;
 		}*/
-		#nvar a {
-		  float: left;
-		  font-size: 16px;
-		  color: white;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		}
+	#nvar a {
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
 		#nvar a:hover{
 			color:yellow;
 		}
@@ -579,9 +585,9 @@ border-top-width: 1px;
 	height: 50%;
 	width: 50%;
 	padding: 15%;
-	background-color: cadetblue;
+	background-color: black;
 	border-style: solid;
-	border-color: aqua;
+	border-color: red;
 }
 
 #formulario {
@@ -622,19 +628,32 @@ border-top-width: 1px;
 	}
 
 #nombreDelUsuario {
-
-	margin-left:39%;
+	box-sizing:content-box;
+	border-style:solid;
+	border-color:red;
+	background-color:black;
+	text-align:center;
 }
 
 
 #botonCambioColor {
-margin-top:10%;
-margin-left:39%;
-
+	border-style:solid;
+	background-color:black;
+	color:white;
+	border-color:aqua;
+	margin-top: 10%;
+	margin-left: 1%;
+	font-size:medium;
 }
 #botonInicioSesion {
-	margin-top: -3%;
-	float: right;
+    margin-top: -3%;
+    float: right;
+    color: white;
+    box-sizing: content-box;
+    border-style: solid;
+    border-color: red;
+    background-color: black;
+    text-align: center;
 }
 #botonInicioSesion {
 	transition-duration: 0.4s;
@@ -647,8 +666,13 @@ margin-left:39%;
 #botonCerrarSesion {
 	float: right;
 	margin-top: -3%;
-	background-color: #e7e7e7;
-	color: black;
+	
+	color: white;
+	box-sizing: content-box;
+	border-style: solid;
+	border-color: red;
+	background-color: black;
+	text-align: center;
 }
 	#botonCerrarSesion{
 	transition-duration: 0.4s;
@@ -661,8 +685,13 @@ margin-left:39%;
 
 
 #efectosImagenesEnlace {
-	margin-top: 20%;
-	margin-left: 35%;
+	float: right;
+	margin-top: -3%;
+	margin-right: 2%;
+	color:white;
+	border-style:solid;
+	border-color:aqua;
+	background-color:black;
 }
 
 
