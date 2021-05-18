@@ -516,16 +516,38 @@ border-top-width: 1px;
 	}
 
 
+	#usuario {
+		margin-left: -130%;
+	}
+
+	#contrasenia {
+		margin-left: -130%;
+	}
+
+	#textoInicioSesion {
+		margin-left: 15%;
+	}
+
+	#textoInicioSesion {
+		margin-left: 5%;
+	}
+	
+	#irRegistro {
+		padding: 0%;
+		font-size: small;
+	}
 
 
 
+	#enviarBoton {
+		margin-left: 0px;
+	}
 
+	#usuarioR {
+		margin-left: -130%;
+	}
 
-
-
-
-
-
-
-
+	#contraseniaR {
+		margin-left: -130%;
+	}
 }

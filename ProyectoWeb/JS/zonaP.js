@@ -4,7 +4,7 @@ window.onload = function(){
 }
 
 function escribir() {
-    document.getElementById('nombreDelUsuario').innerHTML = "Bienvenido " + localStorage.getItem("usuarioNombre") + " !";
+    document.getElementById('nombreDelUsuario').innerHTML = "Hola "+localStorage.getItem("usuarioNombre")+"!" ;
 
 }
 

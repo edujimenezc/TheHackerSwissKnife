@@ -22,6 +22,7 @@ fecha: Abril 2021
 	<!-- una hoja de estilos externa-->
 	<!-- una hoja de estilos personalizada-->
 	<link href="../CSS/00-modelo.css" rel="stylesheet" />
+	<link href="../CSS/efectos-foto.css" rel="stylesheet" />
 	<link href="../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet" />
 
 	<!-- iconos u otros elementos externos -->
@@ -95,61 +96,48 @@ fecha: Abril 2021
 
 
 	<div class="contenido">
-		<div class="arriba_contenido_SV">
-			<h1 id="tituloZona">
-				Zona privada
-			</h1>
-			</br>
-			<p id="nombreDelUsuario">Bienvenido</p>
-			<button id="botonCambioColor" onclick="cambiarFondo();">Cambiar el color de la página</button>
-
-			<br />
-			<a   href="efectos-imagenes.html" target="_blank"><p id="efectosImagenesEnlace">Efectos Dolly Zoom y Ken Burns</p></a>
-
-		</div>
-
-
-
-
-
-
-
-
-
-
-
-	</div>
-
-	<div class="migas">
-		<ul class="ruta">
-
-			<p id="paginaActual"><span id="this_title">mytitle</span>.</p>
-
-		</ul>
+		<p id="nombreDelUsuario"></p><p> Aqu&iacute; tienes disponibles varios efectos de im&aacute;genes</p>
 		</br>
-		<div id="nVeces">
+		<p>Dolly Zoom:</p>
+		<p id="errorMedia">El viewPort de tu dispositivo es demasiado pequeño para mostrar las im&aacute;genes</p>
+		<div class="contenedorFoto">
+
+
+			<div class="front"><img src="../SOURCES/imagenes/vector-para-efecto.png" alt="fotoParaDollyEffect" /></div>
+			<div class="fondoDolly"><img src="../SOURCES/imagenes/bosque.jpg" alt="" /></div>
 
 		</div>
-		</br></br></br>
-		<p>Espacio reservado para Google Ads</p>
+		</br>
+		<a href="../SOURCES/documents/explicacion-dolly.pdf">Explicaci&oacute;n del efecto Dolly</a>
+		</br></br>
+		<p>Ken Burns:</p>
+
+		</br>
+		<div class="image-wrap">
+			<img src="https://unsplash.it/900/700">
+		</div>
 	</div>
 
-	<footer>
-		<div class="pie">
-			&copy;Edu Jimenez 2021
-			<p id="contacto">Contacto: <a href="mailto:edujimenez@cenec.com">edujimenez@cenec.com  <a /></p>
 
 
 
-		</div>
 
-	</footer>
+
+
+
+
+
+
+	</div>
+
+	
+
+	
 	</div>
 	<script>
 		
         ComprobacionInicio();
-		clickCounter();
-        migasZ()
+		
 	</script>
 	</body>
 </html>

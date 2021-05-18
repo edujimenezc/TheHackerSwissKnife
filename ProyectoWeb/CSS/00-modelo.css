@@ -636,11 +636,34 @@ margin-left:39%;
 	margin-top: -3%;
 	float: right;
 }
-#botonCerrarSesion {
-	float: right;
-	margin-top:-3%;
+#botonInicioSesion {
+	transition-duration: 0.4s;
 }
 
+	#botonInicioSesion:hover {
+		background-color: #4CAF50;
+		color: black;
+	}
+#botonCerrarSesion {
+	float: right;
+	margin-top: -3%;
+	background-color: #e7e7e7;
+	color: black;
+}
+	#botonCerrarSesion{
+	transition-duration: 0.4s;
+}
+
+		#botonCerrarSesion:hover {
+			background-color: #f44336;
+			color: black;
+		}
+
+
+#efectosImagenesEnlace {
+	margin-top: 20%;
+	margin-left: 35%;
+}
 
 
 /*

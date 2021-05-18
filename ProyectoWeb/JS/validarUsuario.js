@@ -7,9 +7,12 @@ let width = $(window).width();
 let heigth = $(window).height();
 
 
+function abrirIniciarSesionM() {
+    window.open("HTML/inicio-sesion.html", "_self")
+}
 
 function abrirIniciarSesion(){
-    window.open("../ProyectoWeb/HTML/inicio-sesion.html", "_self")
+    window.open("../HTML/inicio-sesion.html", "_self")
 }
 
 function cerrarSesion() {
