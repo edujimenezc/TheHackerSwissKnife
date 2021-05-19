@@ -24,9 +24,14 @@ function cerrarSesion() {
 }
 
 var ajuste = function () {
-    
-    menu.setAttribute("style","position:static;margin-left:37%;overflow: hidden;background-color: #333;width:36%;" ); 
-}
+    if (width > 750) {
+        menu.setAttribute("style", "position:static;margin-left:37%;overflow: hidden;background-color: #333;width:36%;");
+    }
+    if (width < 750) {
+        menu.setAttribute("style", "position:static;margin-left: 0.5%;overflow: hidden;background-color: #333;width: 99%;");
+        }
+
+    }
 
 var ComprobacionInicio = function () {
     
@@ -45,7 +50,7 @@ var ComprobacionInicio = function () {
        menu.setAttribute("style","position:static;margin-left:30%;overflow: hidden;background-color: #333;width:47%;");
        }
        if (width <= 750) {
-           menu.setAttribute("style", "position:static;margin-left: 0.5%;overflow: hidden;background-color: #333;width: 85 %;");
+           menu.setAttribute("style", "position:static;margin-left: 0.5%;overflow: hidden;background-color: #333;width: 99%;");
        }
        botonISesion.style.display = 'none';
        botonCSesion.style.display = 'inline';

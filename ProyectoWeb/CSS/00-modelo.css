@@ -604,6 +604,10 @@ border-top-width: 1px;
 #enviarBoton{
 	padding:5%;
 	margin-left:34%;
+	border-style:solid;
+	border-color:red;
+	background-color:black;
+	color:white;
 }
 #usuario{
 
@@ -617,6 +621,18 @@ border-top-width: 1px;
 #textoInicioSesion {
 	margin-left: 32%;
 }
+#textoInicioSesion2 {
+	margin-left: 37%;
+}
+
+#usuarioR {
+	padding: 5%;
+}
+
+#contraseniaR {
+	padding: 5%;
+}
+
 
 #tituloZona {
 	margin-left: 30%;

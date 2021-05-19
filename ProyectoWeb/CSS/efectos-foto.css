@@ -1,4 +1,13 @@
 @media (max-width: 899px) {
+    #nvar {
+        position: static;
+        margin-left: 0.5%;
+        overflow: hidden;
+        background-color: #333;
+        width: 99%;
+    }
+    
+    
     #errorMedia {
         display: block;
     }
@@ -23,6 +32,15 @@
         display: none;
     }
 
+
+
+    .image-wrap {
+        display:none;
+    }
+
+        .image-wrap img {
+            display: none;
+        }
 }
 
 @media (min-width: 900px) {

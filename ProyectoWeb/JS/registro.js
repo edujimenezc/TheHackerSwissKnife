@@ -2,7 +2,7 @@ let usuario = [];
 
 function registrarse() {
 
-	alert("Esto es una version de prueba, tus datos se guardarán en LocalStorage por lo que si cierras sesión deberás registrarte de nuevo")
+	alert("Esto es una version de prueba, tus datos se guardan en LocalStorage por lo que si cierras sesion debes registrarte de nuevo")
 	
 	
 	

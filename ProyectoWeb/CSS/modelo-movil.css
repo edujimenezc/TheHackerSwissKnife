@@ -47,12 +47,12 @@ fecha: Abril 2021
 		
 		.encabezado {
 			
-			overflow:auto;/*
+			/*
 		  border-style: solid;
 		  border-color: blue;*/
 		  grid-column: 1 / span 3;
 		  grid-row: 1 / span 2;
-		 background-color:rgba(0,0,20)
+		 
 		}
 		
 		
@@ -100,7 +100,7 @@ fecha: Abril 2021
 		
 		  grid-column: 1 / span 3;
 		  grid-row: 5 / span 8;
-		   background-color:rgba(0,0,255,0.1)
+		   
 		}
 		
 		.contenido {
@@ -122,7 +122,7 @@ fecha: Abril 2021
 			
 		  grid-column: 1 / span 3;
 		  grid-row: 3 / span 3;
-		   background-color:rgba(0,0,255,0.1);
+		   
 		   height:50%
 		}
 		.contenido::-webkit-scrollbar {
@@ -375,7 +375,7 @@ margin-top: 15%;
     border-right-width: 0px;
 		  grid-column: 1 / span 3;
 		  grid-row: 4 / span 4;
-		   background-color:rgba(0,0,255,0.1);
+		   
 		 animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -494,60 +494,105 @@ border-top-width: 1px;
 	}
 
 	#irRegistro {
-		padding: 18%;
+		margin-left: 21%;
+		padding: 0%;
+		font-size: small;
 	}
-
 
 	#enviarBoton {
 		padding: 5%;
 		margin-left: 34%;
 	}
-
-	#usuario {
-		padding: 5%;
+	#botonInicioSesion {
+		display: inline;
+		margin-top: 3%;
+		margin-right: 9%;
 	}
-
-	#contrasenia {
-		padding: 5%;
+	#botonCerrarSesion {
+		display: inline;
+		margin-top: 3%;
+		margin-right: 9%;
 	}
-
-	#textoInicioSesion {
-		margin-left: 32%;
-	}
-
-
-	#usuario {
-		margin-left: -130%;
-	}
-
-	#contrasenia {
-		margin-left: -130%;
-	}
-
-	#textoInicioSesion {
-		margin-left: 15%;
-	}
-
-	#textoInicioSesion {
-		margin-left: 5%;
+	#logoPrincipal {
+		margin-top: 1%;
+		width: 38%;
+		margin-left: 4%;
 	}
 	
-	#irRegistro {
-		padding: 0%;
-		font-size: small;
+
+	
+	#textoInicioSesion {
+		margin-top: 15%;
+		margin-left: 28%;
 	}
+	#textoInicioSesion2 {
+		margin-top: 15%;
+		margin-left: 35%;
+	}
+
+	#usuario {
+		padding: 5%;
+		margin-left: -7%;
+	}
+
+	#contrasenia {
+		padding: 5%;
+		margin-left: -7%;
+	}
+	#usuarioR {
+		padding: 5%;
+		margin-left: -7%;
+	}
+
+	#contraseniaR {
+		padding: 5%;
+		margin-left: -7%;
+	}
+	
+	
+
 
 
 
 	#enviarBoton {
-		margin-left: 0px;
+		margin-left: 54px;
 	}
 
-	#usuarioR {
-		margin-left: -130%;
+	#botonCambioColor {
+		border-style: solid;
+		background-color: black;
+		color: white;
+		border-color: aqua;
+		margin-top: 10%;
+		margin-left: 24%;
+		font-size: medium;
 	}
 
-	#contraseniaR {
-		margin-left: -130%;
+
+	#efectosImagenesEnlace {
+		float: right;
+		margin-top: 10%;
+		margin-right: 13%;
+		color: white;
+		border-style: solid;
+		border-color: aqua;
+		background-color: black;
+	}
+
+	#tituloZona {
+		margin-left: 4%;
+	}
+
+
+	#divFormulario {
+		margin-left: 2%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		padding-bottom: 100%;
+		width: 96%;
+		
+		background-color: black;
+		border-style: solid;
+		border-color: red;
 	}
 }
