@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: Proyecto Web 3º Trimestre
+autor: Eduardo Jimenez
+fecha: Abril 2021
+-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Spanish Vector Project</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+	<!-- una hoja de estilos externa-->
+	<!-- una hoja de estilos personalizada-->
+	<link href="../CSS/00-modelo.css" rel="stylesheet" />
+	<link href="../CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet" />
+
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<!--<script type="text/javascript" src="../JS/alertaInicioSesion.js"></script>
+		<script type="text/javascript" src="../JS/validarUsuario.js"></script>-->
+	<script type="text/javascript" src="../JS/zonaP.js"></script>
+	<script src="../JS/00-modelo.js"></script>
+	<script type="text/javascript" src="../JS/alertaInicioSesion.js"></script>
+	<script type="text/javascript" src="../JS/validarUsuario.js"></script>
+
+
+</head>
+
+
+	<body>
+
+		<div class="marco">
+
+			<div class="encabezado">
+
+				<div id="nvar">
+					<!--menu -->
+					<nav>
+						<a id="otro" href="../index.html">Inicio</a>
+						<a href="proyecto-spanish-vector.html">Project Spanish Vector</a>
+						<a href="novedades.html">Blog</a>
+						<a href="about-us.html">Contacto</a>
+						<a id="zonaUsuario" href="zona-usuario.html">Zona Privada</a>
+					</nav>
+				</div>
+
+
+
+
+
+
+
+				<button id="botonInicioSesion" onclick="abrirIniciarSesion()">Iniciar Sesi&oacuten;</button>
+				<button id="botonCerrarSesion" onclick="cerrarSesion()">Cerrar Sesi&oacuten;</button>
+				<img id="logoPrincipal" src="../SOURCES/imagenes/logo.png" />
+			</div>
+
+
+	<div class="lado">
+		<div class="informacion">
+			<img id="fotomia" src='../SOURCES/imagenes/fotomia.jpg' alt="Foto de Eduardo Jim&eacutenez Cobos" />
+			<p id="miNombre">Eduardo Jim&eacutenez Cobos </p></br><p id="miTexto">Desarrollador de Aplicaciones Multiplataforma/IA</p>
+			</br><p id="miTexto"><a href="https://www.linkedin.com/in/eduardo-jimenez-cobos" target="_blank">Linkedin</a></p>
+			</br><p id="miTexto"><a href="https://github.com/edujimenezc" target="_blank">GitHub</a></p>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<div class="contenido">
+		<div class="arriba_contenido_SV">
+			<h1 id="tituloZona">
+				Zona privada
+			</h1>
+			</br>
+			<p id="nombreDelUsuario">Bienvenido</p>
+			<button id="botonCambioColor" onclick="cambiarFondo();">Cambiar el color de la página</button>
+
+			<br />
+			<a   href="efectos-imagenes.html" target="_blank"><p id="efectosImagenesEnlace">Efectos Dolly Zoom y Ken Burns</p></a>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="migas">
+		<ul class="ruta">
+
+			<p id="paginaActual"><span id="this_title">mytitle</span>.</p>
+
+		</ul>
+		</br>
+		<div id="nVeces">
+
+		</div>
+		</br></br></br>
+		<p>Espacio reservado para Google Ads</p>
+	</div>
+
+	<footer>
+		<div class="pie">
+			&copy;Edu Jimenez 2021
+			<p id="contacto">Contacto: <a href="mailto:edujimenez@cenec.com">edujimenez@cenec.com  <a /></p>
+
+
+
+		</div>
+
+	</footer>
+	</div>
+	<script>
+		
+        ComprobacionInicio();
+		clickCounter();
+        migasZ()
+	</script>
+	</body>
+</html>
