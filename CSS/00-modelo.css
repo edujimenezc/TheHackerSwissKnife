@@ -32,13 +32,16 @@ fecha: Abril 2021
   background: #555; 
 }
 body {
-    overflow-y: scrollbar;
-    overflow-x: hidden;
+    
+    overflow: hidden;
     font-family: Verdana,Century Gothic,Candara,Futara,Trebuchet MS;
     color: white;
     /*background-image: url("../SOURCES/imagenes/fondoAzul.jpg");*/
     /*background-image: url("../SOURCES/imagenes/fondoMetalBarras.jpg");*/
-    background-image: url("../SOURCES/imagenes/fondoRojo.png");
+    background-image: url("../SOURCES/imagenes/fondo2.jpg");
+	background-repeat:no-repeat;
+
+   background-size:cover;
     /*background-color: black;*/
 }
    a{color: #FF0000; }
@@ -49,8 +52,8 @@ body {
 		  display: grid;
 		  /*border-style: solid;
 		   border-color: blue;*/
-		  grid-template-columns: 23% 62% 14%;
-		  grid-template-rows: 10% 0% 100% 10%;
+		  grid-template-columns: 25% 50% 25%;
+		  grid-template-rows: 10% 80% 10%;
 		  /*grid-gap: 1%;*/
 		  
 		  height: 100vh;
@@ -63,7 +66,7 @@ body {
 		  border-style: solid;
 		  border-color: blue;*/
 	grid-column: 1 / span 3;
-	grid-row: 1 / span 2;
+	grid-row: 1 / span 1;
 	/*background-color:rgba(0,0,20)*/
 }
 
@@ -74,14 +77,17 @@ body {
 
 }
 
-	/*	#nvar{
+		#nvar{
 			position:static;
-			margin-left:30%;
+			
 			 overflow: hidden;
-		  background-color: #333; 
-			width:47%;
-		}*/
+		  background-color:rgba(0, 0, 0, 0.5); 
+		  
+			width:100%;
+		}
+		#otro{margin-left: 40%;}
 	#nvar a {
+		
 		float: left;
 		font-size: 16px;
 		color: white;
@@ -116,7 +122,7 @@ body {
     border-right-width: 0px;
 		
 		  grid-column: 1 / span 1;
-		  grid-row: 3 / span 1;
+		  grid-row: 2 / span 1;
 		  /* background-color:rgba(0,0,255,0.1)*/
 		}
 
@@ -131,8 +137,8 @@ body {
 	border-bottom-width: 0px;
 	border-right-width: 1px;
 	overflow: auto;
-	grid-column: 2 / span 1;
-	grid-row: 3 / span 1;
+	grid-column: 2 / span 2;
+	grid-row: 2 / span 1;
 	/*background-color:rgba(0,0,255,0.1)*/
 }
 		.contenido::-webkit-scrollbar {
@@ -145,13 +151,13 @@ body {
 			}
 		.arriba_contenido h1{
    font-size:400%;
-    margin-left:20%;
+    margin-left:40%;
 	margin-right:10%;
 	
 }
 .arriba_contenido h1:hover{
-	color:green;
-	 
+	color:rgb(9, 202, 9);
+	text-decoration: underline;
 }
 .arriba_contenido h1{
 	transition: color 0.8s linear 0.2s;
@@ -232,6 +238,76 @@ body {
 	
 }
 
+.postn{
+
+	
+	border-style: solid;
+	border-color: #4CAF50;
+	margin-bottom: 8%;
+}
+.postn a{
+	margin-left: 1%;
+}
+
+#tituloPostn{
+	margin-left: 1%;
+	margin-top: 1%;
+	font-size: 132%;
+	margin-bottom: 5%;
+}
+
+#textoPostn{
+	margin-left: 1%;
+	font-size: 100%;
+}
+
+#fotovectoresp{
+	margin-top:-17%;
+	margin-left:55%;
+	width:35%
+}
+#fotovectoresp:hover{
+	box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+	
+}
+#fotovectoresp{
+	transition: color 0.8s linear 0.2s;
+}
+
+
+#fotocursoIA{
+	
+	margin-top:-14%;
+	margin-left:55%;
+	width:35%
+
+}
+
+#fotocursoIA:hover{
+	box-shadow: 0px 0px 15px 15px #6d1eec;
+-webkit-box-shadow: 0px 0px 15px 15px #6d1eec;
+	
+}
+#fotocursoIA{
+	transition: color 0.8s linear 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		#gifvector{
 			width:30%;
 			height:30%;
@@ -268,18 +344,7 @@ transform-style: preserve-3d;}
 	margin-left:25%;
 }
 	
-		#fotovectoresp{
-			margin-left:25%;
-			
-		}
-		#fotovectoresp:hover{
-			box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-			
-		}
-		#fotovectoresp{
-			transition: color 0.8s linear 0.2s;
-		}
+		
 
 #textoTitulo{
 	font-size:200%;
@@ -555,11 +620,12 @@ ul.breadcrumb li a:hover {
 		
 		.pie{  
 		overflow:auto;
+		margin-top: 8%;
+
 		width: 435%;
-		height:100%;
+		height:69%;
 		
-		  border-style: solid;
-		  border-color: aqua;
+		
 border-top-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
