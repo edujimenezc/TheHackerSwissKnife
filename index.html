@@ -1,33 +1,157 @@
-<!DOCTYPE html">
+﻿<!DOCTYPE html>
 <html lang="es">
 
+<!--
+HTML
+web o pagina: Proyecto Web 3º Trimestre
+autor: Eduardo Jimenez
+fecha: Abril 2021
+-->
+
 <head>
-<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
-<title>Comanda del restaurante</title>
-<link rel="StyleSheet" href="examen1trim.css" type="text/css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Programming Anki Vector</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+	<!-- una hoja de estilos externa-->
+	<!-- una hoja de estilos personalizada-->
+	<link href="CSS/00-modelo.css" rel="stylesheet" />
+	<link href="CSS/modelo-movil.css" media="(max-width: 600px)" rel="stylesheet" />
+
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="JS/00-modelo.js"></script>
+	<script type="text/javascript" src="JS/alertaInicioSesion.js"></script>
+	<script type="text/javascript" src="JS/validarUsuario.js"></script>
+
 
 </head>
 
-<!--
-Trabajo: - 1DAm-Lenguajes de Marcas
-Fecha: 03 02 2021
-Autor: Eduardo
-Comentario: 
--->
+
 <body>
-<details>
-<p>Eduardo Jiménez Cobos</p></br>
-<summary>Listado de trabajos </summary>
-<ul>
-<li><a href="ejercicios/tabla berenjena.html">ejercicio fruta</a></li>
-<li><a href="ProyectoWeb/index.html">Proyecto final</a></li>
-<li><a href="DOCS/DiagramaLogin-out.pdf">Documento UML Login/Out</a></li>
-<li><a href="DOCS/Untitled Diagram.pdf">Documento UML</a></li>
-</ul>
+
+	<div class="marco">
+	
+		<div class="encabezado">
+
+			<div id="nvar">
+				<!--menu -->
+				<nav>
+					
+				
+					<a id="otro" href="index.html">Inicio</a>
+					<a href="HTML/proyecto-spanish-vector.html">Project Spanish Vector</a>
+					<a href="HTML/novedades.html">Blog</a>
+					<a href="HTML/about-us.html">Contacto</a>
+					<!--poner para ocultar y mostrar-->
+					<a id="zonaUsuario" href="HTML/zona-usuario.html">Zona Privada</a>
+
+				</nav>
 
 
-</details>
+			</div>
+			
+			
 
+
+
+
+
+
+		</div>
+		
+
+		<div class="lado">
+		<div class="informacion">
+		<img id="fotomia" src='SOURCES/imagenes/fotomia.jpg' alt="Foto de Eduardo Jim&eacutenez Cobos"/>
+		<p id="miNombre">Eduardo Jim&eacutenez Cobos </p></br><p id="miTexto">DAM /</br> Machine Learning / Deep Learning</p>
+		</br><p id="miTexto"><a href="https://www.linkedin.com/in/eduardo-jimenez-cobos" target="_blank">Linkedin</a></p>
+		</br><p id="miTexto"><a href="https://github.com/edujimenezc" target="_blank">GitHub</a></p>
+
+		</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="contenido">
+		<div class="arriba_contenido">
+		<h1>Blog
+		
+		</h1>
+		
+		</div>
+		
+		
+		<div class="noticia">
+		<div class="postn">
+			<p id="tituloPostn">Proyecto Spanish Vector</p>
+			<p id="textoPostn">Spanish Vector es un proyecto en el que trato de programar el robot </br>doméstico Anki Vector añadiéndole funcionalidades como el</br> entendimiento del Español usando IA, Python y una Raspberry Pi</p>
+		</br>
+			<a href="HTML/proyecto-spanish-vector.html">M&aacutes informaci&oacuten</a>
+			<a href="HTML/proyecto-spanish-vector.html"><img id="fotovectoresp" src="SOURCES/imagenes/spanish-vector-project.jpg" alt="Spanish Vector Project Image"/></a>
+		</div>
+
+		<div class="postn">
+			<p id="tituloPostn">Detecci&oacuten de incumplimiento en el Distanciamiento social con IA</p>
+			<p id="textoPostn">Proyecto de Inteligencia Artificial realizado para Samsung y la UMA </br>con reconocimiento de objetos en imágenes mediante YOLO </br>y c&aacutelculo de la distancia eucl&iacutedea</p>
+		</br>
+			<a href="HTML/proyecto-spanish-vector.html">M&aacutes informaci&oacuten</a>
+			<a href=#><img id="fotocursoIA" src="SOURCES/imagenes/cursoIA.gif" alt="App social distancing Image"/></a>
+		</div>
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+		
+	
+		
+		<footer>
+		<div class="pie"> &copy;Edu Jimenez 2021    
+		  <p id="contacto">Contacto: <a href="mailto:edujimenez@cenec.com">edujimenez@cenec.com  <a/></p>
+		
+		
+		
+		</div>
+	
+</footer>
+</div>
+<script>
+    localStorage.setItem('contadorN', 0);
+ComprobacionInicio();
+   
+clickCounter();
+migasI();
+	</script>
 </body>
-
 </html>
