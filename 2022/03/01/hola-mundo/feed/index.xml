@@ -9,7 +9,7 @@
 	<title>
 	Comentarios en: Coming soon&#8230;	</title>
 	<atom:link href="http://localhost/blog/2022/03/01/hola-mundo/feed/" rel="self" type="application/rss+xml" />
-	<link>http://https://edujimenezc.github.io/Blog/2022/03/01/hola-mundo/</link>
+	<link>http://https://edujimenezc.github.io/2022/03/01/hola-mundo/</link>
 	<description>Otro sitio realizado con WordPress</description>
 	<lastBuildDate>Tue, 01 Mar 2022 17:29:53 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Por: Un comentarista de WordPress		</title>
-		<link>http://https://edujimenezc.github.io/Blog/2022/03/01/hola-mundo/#comment-1</link>
+		<link>http://https://edujimenezc.github.io/2022/03/01/hola-mundo/#comment-1</link>
 
 		<dc:creator><![CDATA[Un comentarista de WordPress]]></dc:creator>
 		<pubDate>Tue, 01 Mar 2022 17:07:39 +0000</pubDate>
-		<guid isPermaLink="false">http://https://edujimenezc.github.io/Blog/?p=1#comment-1</guid>
+		<guid isPermaLink="false">http://https://edujimenezc.github.io/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hola, esto es un comentario.
 Para empezar a moderar, editar y borrar comentarios, por favor, visita la pantalla de comentarios en el escritorio.
