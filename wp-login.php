@@ -5,11 +5,11 @@
 	<title>Acceder 
 	<meta name="robots" content="max-image-preview:large, noindex, noarchive">
 <link rel="dns-prefetch" href="//s.w.org">
-<link rel="stylesheet" id="dashicons-css" href="http://https://edujimenezc.github.io/Blog/wp-includes/css/dashicons.min.css?ver=5.9.1" media="all">
-<link rel="stylesheet" id="buttons-css" href="http://https://edujimenezc.github.io/Blog/wp-includes/css/buttons.min.css?ver=5.9.1" media="all">
-<link rel="stylesheet" id="forms-css" href="http://https://edujimenezc.github.io/Blog/wp-admin/css/forms.min.css?ver=5.9.1" media="all">
-<link rel="stylesheet" id="l10n-css" href="http://https://edujimenezc.github.io/Blog/wp-admin/css/l10n.min.css?ver=5.9.1" media="all">
-<link rel="stylesheet" id="login-css" href="http://https://edujimenezc.github.io/Blog/wp-admin/css/login.min.css?ver=5.9.1" media="all">
+<link rel="stylesheet" id="dashicons-css" href="http://https://edujimenezc.github.io/Blog/wp-includes/css/dashicons.min.css?ver=5.9.1" type="text/css" media="all">
+<link rel="stylesheet" id="buttons-css" href="http://https://edujimenezc.github.io/Blog/wp-includes/css/buttons.min.css?ver=5.9.1" type="text/css" media="all">
+<link rel="stylesheet" id="forms-css" href="http://https://edujimenezc.github.io/Blog/wp-admin/css/forms.min.css?ver=5.9.1" type="text/css" media="all">
+<link rel="stylesheet" id="l10n-css" href="http://https://edujimenezc.github.io/Blog/wp-admin/css/l10n.min.css?ver=5.9.1" type="text/css" media="all">
+<link rel="stylesheet" id="login-css" href="http://https://edujimenezc.github.io/Blog/wp-admin/css/login.min.css?ver=5.9.1" type="text/css" media="all">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 		<meta name="viewport" content="width=device-width">
 		</title>
@@ -71,46 +71,54 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 
 					</form>
 				</div>
-				<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<script id="zxcvbn-async-js-extra">
+				<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="zxcvbn-async-js-extra">
+/* <![CDATA[ */
 var _zxcvbnSettings = {"src":"http:\/\/https:\/\/edujimenezc.github.io\/Blog\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
 </script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/hooks.min.js?ver=1e58c8c5a32b2e97491080c5b10dc71c" id="wp-hooks-js"></script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/i18n.min.js?ver=30fcecb428a0e8383d3776bcdd3a7834" id="wp-i18n-js"></script>
-<script id="wp-i18n-js-after">
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/hooks.min.js?ver=1e58c8c5a32b2e97491080c5b10dc71c" id="wp-hooks-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/dist/i18n.min.js?ver=30fcecb428a0e8383d3776bcdd3a7834" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
-<script id="password-strength-meter-js-extra">
+<script type="text/javascript" id="password-strength-meter-js-extra">
+/* <![CDATA[ */
 var pwsL10n = {"unknown":"Fortaleza de la contraseña desconocida","short":"Muy débil","bad":"Débil","good":"Medio","strong":"Fuerte","mismatch":"No coinciden"};
+/* ]]> */
 </script>
-<script id="password-strength-meter-js-translations">
+<script type="text/javascript" id="password-strength-meter-js-translations">
 ( function( domain, translations ) {
 	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
 	localeData[""].domain = domain;
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", {"translation-revision-date":"2022-02-22 09:13:24+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.":["¡%1$s está obsoleto desde la versión %2$s! Usa %3$s en su lugar. Por favor, plantéate escribir un código más inclusivo."]}},"comment":{"reference":"wp-admin\/js\/password-strength-meter.js"}} );
 </script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-admin/js/password-strength-meter.min.js?ver=5.9.1" id="password-strength-meter-js"></script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script>
-<script id="wp-util-js-extra">
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-admin/js/password-strength-meter.min.js?ver=5.9.1" id="password-strength-meter-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
 var _wpUtilSettings = {"ajax":{"url":"\/blog\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
 </script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-includes/js/wp-util.min.js?ver=5.9.1" id="wp-util-js"></script>
-<script id="user-profile-js-extra">
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-includes/js/wp-util.min.js?ver=5.9.1" id="wp-util-js"></script>
+<script type="text/javascript" id="user-profile-js-extra">
+/* <![CDATA[ */
 var userProfileL10n = {"user_id":"0","nonce":"3b2da17435"};
+/* ]]> */
 </script>
-<script id="user-profile-js-translations">
+<script type="text/javascript" id="user-profile-js-translations">
 ( function( domain, translations ) {
 	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
 	localeData[""].domain = domain;
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", {"translation-revision-date":"2022-02-22 09:13:24+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Your new password has not been saved.":["No ha sido guardada tu nueva contraseña."],"Hide":["Ocultar"],"Show":["Mostrar"],"Confirm use of weak password":["Confirma el uso de una contraseña débil."],"Hide password":["Ocultar la contraseña"],"Show password":["Mostrar la contraseña"]}},"comment":{"reference":"wp-admin\/js\/user-profile.js"}} );
 </script>
-<script src="http://https://edujimenezc.github.io/Blog/wp-admin/js/user-profile.min.js?ver=5.9.1" id="user-profile-js"></script>
+<script type="text/javascript" src="http://https://edujimenezc.github.io/Blog/wp-admin/js/user-profile.min.js?ver=5.9.1" id="user-profile-js"></script>
 	<div class="clear"></div>
 	</body>
 	</html>

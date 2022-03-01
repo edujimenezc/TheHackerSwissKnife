@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Eduardo Jiménez Cobos</title>
-	<atom:link href="http://localhost/blog/feed/" rel="self" type="application/rss+xml" />
+	<title>azkhabhan &#8211; Eduardo Jiménez Cobos</title>
+	<atom:link href="http://localhost/blog/author/azkhabhan/feed/" rel="self" type="application/rss+xml" />
 	<link>http://https://edujimenezc.github.io/Blog</link>
 	<description>Otro sitio realizado con WordPress</description>
 	<lastBuildDate>Tue, 01 Mar 2022 17:29:53 +0000</lastBuildDate>
