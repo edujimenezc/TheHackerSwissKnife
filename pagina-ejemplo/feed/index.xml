@@ -9,7 +9,7 @@
 	<title>
 	Comentarios en: Página de ejemplo	</title>
 	<atom:link href="http://localhost/blog/pagina-ejemplo/feed/" rel="self" type="application/rss+xml" />
-	<link>https://edujimenezc.github.io</link>
+	<link>https://edujimenezc.github.io/Blog</link>
 	<description>Otro sitio realizado con WordPress</description>
 	<lastBuildDate>Tue, 01 Mar 2022 17:07:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
