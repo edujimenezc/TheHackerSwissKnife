@@ -378,8 +378,8 @@ textarea {
 	color: #404040;
 	/*font-family: sans-serif;*/
 	font-family: "Courier", "PT Mono", "Consolas", "courier new";
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 25px;
+	/*font-size: 1rem;*/
 	line-height: 1.5;
 }
 
